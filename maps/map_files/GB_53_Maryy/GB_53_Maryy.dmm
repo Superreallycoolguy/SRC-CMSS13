@@ -152,7 +152,7 @@
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "ep" = (
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad_prep,
+/obj/structure/machinery/cm_vending/gear/antag_guns,
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "red"
@@ -194,6 +194,14 @@
 "fm" = (
 /obj/structure/bed/chair/comfy/lime{
 	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"fv" = (
+/obj/structure/window/framed/strata,
+/obj/structure/curtain/red,
+/obj/structure/machinery/door/airlock/almayer/security{
+	dir = 5
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
@@ -283,6 +291,13 @@
 "hE" = (
 /obj/structure/window/framed/prison,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"hP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
 /area/space/almayer/lifeboat_dock)
 "hQ" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
@@ -386,6 +401,13 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"kK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_ice/dirty{
+	name = "Deep Rock Formations";
+	desc = "Hardened and dense formations of stone and ore. You are not getting through here without some serious mining equipment"
+	},
+/area/space/almayer/lifeboat_dock)
 "kX" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
 /turf/open/floor/prison,
@@ -415,6 +437,10 @@
 "lM" = (
 /obj/structure/bed/chair/office,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"lW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
 /area/space/almayer/lifeboat_dock)
 "lZ" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -469,6 +495,10 @@
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
+/area/space/almayer/lifeboat_dock)
+"mT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "mU" = (
 /turf/open/shuttle/dropship,
@@ -803,6 +833,17 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"uE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space/almayer/lifeboat_dock)
+"uP" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "uT" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating,
@@ -1007,6 +1048,12 @@
 	},
 /turf/open/space/basic,
 /area/space/almayer/lifeboat_dock)
+"zP" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "zX" = (
 /obj/structure/closet,
 /turf/open/floor/prison{
@@ -1052,12 +1099,16 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"AZ" = (
+/mob/living/simple_animal/cat/blackcat,
+/turf/open/floor/carpet,
+/area/space/almayer/lifeboat_dock)
 "Bd" = (
 /turf/open/gm/river,
 /area/space/almayer/lifeboat_dock)
 "Bj" = (
 /obj/structure/surface/table/woodentable/fancy,
-/turf/open/floor/carpet/edge,
+/turf/open/floor/carpet,
 /area/space/almayer/lifeboat_dock)
 "Bu" = (
 /obj/structure/prop/pred_flight,
@@ -1145,6 +1196,12 @@
 "CE" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
 /obj/structure/prop/almayer/computers/sensor_computer1,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"CO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "CW" = (
@@ -1365,6 +1422,9 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"HM" = (
+/turf/open/gm/dirt2,
+/area/space/almayer/lifeboat_dock)
 "HN" = (
 /turf/open/floor{
 	dir = 1;
@@ -1569,6 +1629,14 @@
 	icon_state = "1,11"
 	},
 /area/space/almayer/lifeboat_dock)
+"LX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_ice/dirty{
+	name = "Deep Rock Formations";
+	desc = "Hardened and dense formations of stone and ore. You are not getting through here without some serious mining equipment"
+	},
+/area/space/almayer/lifeboat_dock)
 "Mb" = (
 /obj/item/tool/candle,
 /turf/open/floor/prison,
@@ -1582,6 +1650,11 @@
 	opacity = 0;
 	name = "Fulcrum"
 	},
+/area/space/almayer/lifeboat_dock)
+"Me" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Ml" = (
 /obj/structure/bed{
@@ -1710,6 +1783,10 @@
 	icon_state = "dark_sterile"
 	},
 /area/space/almayer/lifeboat_dock)
+"PA" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/carpet,
+/area/space/almayer/lifeboat_dock)
 "PG" = (
 /obj/structure/platform_decoration,
 /turf/open/floor/prison,
@@ -1745,6 +1822,12 @@
 	req_one_access_txt = "19;21";
 	access_modified = 1;
 	req_one_access = null
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"QI" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
+	dir = 5
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
@@ -1831,7 +1914,7 @@
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "Sz" = (
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad_prep,
+/obj/structure/machinery/cm_vending/gear/antag_guns,
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "red"
@@ -1906,6 +1989,14 @@
 	dir = 5
 	},
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"UH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
 /area/space/almayer/lifeboat_dock)
 "UO" = (
 /turf/closed/shuttle/twe_dropship{
@@ -2119,7 +2210,9 @@
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "ZY" = (
-/obj/structure/machinery/door/airlock/almayer/security,
+/obj/structure/machinery/door/airlock/almayer/security{
+	dir = 5
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 
@@ -26834,10 +26927,10 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+mT
+mT
+mT
+mT
 cz
 cz
 cz
@@ -27096,16 +27189,16 @@ cz
 cz
 cz
 cz
+mT
+mT
+mT
 cz
 cz
 cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 cz
@@ -27363,13 +27456,13 @@ cz
 cz
 cz
 cz
+mT
+mT
+Me
+mT
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 cz
@@ -27624,14 +27717,14 @@ cz
 cz
 cz
 cz
+kK
+mT
 cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+mT
+mT
 cz
 cz
 cz
@@ -27883,14 +27976,14 @@ cz
 cz
 cz
 cz
+mT
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
+mT
+mT
+kK
 cz
 cz
 cz
@@ -28145,16 +28238,16 @@ cz
 cz
 cz
 cz
+mT
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+Me
+LX
+mT
+mT
+mT
+bk
 cz
 cz
 cz
@@ -28407,15 +28500,15 @@ cz
 cz
 cz
 cz
+Me
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+kK
+mT
+Me
+mT
+Me
+mT
 cz
 cz
 cz
@@ -28668,18 +28761,18 @@ cz
 cz
 cz
 cz
+mT
+CO
 cz
+Me
+mT
+bk
+lW
+LX
+Me
+Me
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 cz
@@ -28930,17 +29023,17 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
+mT
+Me
+lW
+bk
+bk
+LX
+lW
+mT
+bk
 cz
 cz
 cz
@@ -29193,15 +29286,15 @@ cz
 cz
 cz
 cz
+mT
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+lW
+bk
+bk
+bk
+uE
+uE
+Me
 cz
 cz
 cz
@@ -29457,11 +29550,11 @@ RC
 RC
 RC
 RC
-RC
-RC
-RC
-RC
-RC
+bk
+bk
+bk
+bk
+bk
 RC
 RC
 RC
@@ -29718,14 +29811,14 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
+bk
+bk
+bk
+HM
+hP
+bk
+hP
+hP
 td
 td
 td
@@ -29979,14 +30072,14 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
+bk
+bk
+bk
+HM
+hP
+UH
+UH
+UH
 td
 td
 td
@@ -30241,13 +30334,13 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
+bk
+bk
+bk
+HM
+bk
+UH
+hP
 td
 td
 td
@@ -30756,12 +30849,12 @@ Qa
 cz
 cz
 mR
-zr
-zr
+Qa
+Qa
 mR
 mR
 mR
-zr
+Qa
 mR
 Xj
 cz
@@ -38967,9 +39060,9 @@ td
 RC
 RC
 RC
+Og
 cz
-cz
-cz
+QI
 RC
 RC
 RC
@@ -46880,7 +46973,7 @@ yP
 RC
 td
 RC
-Cb
+aU
 aU
 aU
 aU
@@ -47142,13 +47235,13 @@ yP
 RC
 td
 RC
-cz
+RC
 WQ
 WQ
 WQ
 WQ
-cz
-IZ
+RC
+RC
 cz
 yP
 cz
@@ -47404,7 +47497,7 @@ yP
 RC
 td
 RC
-rO
+mP
 mP
 mP
 mP
@@ -53702,11 +53795,11 @@ RC
 RC
 RC
 RC
-RC
-zr
-RC
-zr
-RC
+Og
+uP
+Og
+uP
+Og
 RC
 RC
 RC
@@ -55527,40 +55620,40 @@ Qa
 td
 td
 RC
+VZ
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-RC
-cz
-go
-go
-go
-go
-go
+OT
+OT
+OT
 cz
 RC
 cz
+go
+go
+go
+go
+go
+cz
+RC
 cz
 cz
+OT
+OT
+OT
 cz
-cz
-cz
-cz
+VZ
 RC
 td
 td
 RC
 cz
 cz
+OT
 cz
 cz
 cz
-cz
-cz
+OT
 cz
 cz
 RC
@@ -55789,7 +55882,7 @@ td
 td
 td
 RC
-cz
+VZ
 cz
 cz
 cz
@@ -55811,18 +55904,18 @@ cz
 cz
 cz
 cz
-cz
+VZ
 RC
 td
 td
 RC
 cz
 cz
+OT
 cz
 cz
 cz
-cz
-cz
+OT
 cz
 cz
 RC
@@ -56051,7 +56144,7 @@ td
 td
 td
 RC
-cz
+vI
 cz
 cz
 cz
@@ -56073,19 +56166,19 @@ cz
 cz
 cz
 cz
-cz
+vI
 RC
 td
 td
 RC
 cz
+OY
+OT
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+OT
+zP
 cz
 RC
 td
@@ -56335,19 +56428,19 @@ cz
 cz
 cz
 cz
-cz
+vI
 RC
 td
 td
 RC
 cz
+OT
+OT
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+OT
+OT
 cz
 RC
 td
@@ -56582,15 +56675,15 @@ cz
 cz
 cz
 cz
+ZY
 cz
-cz
 go
 go
 go
 go
 go
 cz
-cz
+ZY
 cz
 cz
 cz
@@ -57116,12 +57209,12 @@ go
 cz
 RC
 cz
-cz
-cz
+OT
+OT
 RC
 RC
 RC
-cz
+ZY
 RC
 td
 td
@@ -57378,9 +57471,9 @@ go
 cz
 RC
 cz
-cz
-cz
-RC
+OT
+zP
+dr
 DI
 go
 go
@@ -57640,7 +57733,7 @@ go
 cz
 RC
 cz
-cz
+OT
 cz
 RC
 go
@@ -59457,29 +59550,29 @@ td
 td
 td
 RC
+VZ
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-RC
-cz
-go
-go
-go
-go
-go
+OT
+OT
+OT
 cz
 RC
 cz
+go
+go
+go
+go
+go
+cz
+RC
 cz
 cz
+OT
+OT
+OT
 cz
-cz
-cz
-cz
+VZ
 RC
 td
 td
@@ -59719,7 +59812,7 @@ td
 td
 td
 RC
-cz
+VZ
 cz
 cz
 cz
@@ -59741,7 +59834,7 @@ cz
 cz
 cz
 cz
-cz
+VZ
 RC
 td
 td
@@ -60003,7 +60096,7 @@ cz
 cz
 cz
 cz
-cz
+vI
 RC
 td
 td
@@ -60265,7 +60358,7 @@ cz
 cz
 cz
 cz
-cz
+vI
 RC
 td
 td
@@ -60512,15 +60605,15 @@ cz
 cz
 cz
 cz
+ZY
 cz
-cz
 go
 go
 go
 go
 go
 cz
-cz
+ZY
 cz
 cz
 cz
@@ -60774,7 +60867,7 @@ cz
 OT
 OT
 cz
-YL
+fv
 cz
 go
 go
@@ -60784,12 +60877,12 @@ go
 cz
 YL
 cz
-cz
-cz
+OT
+OT
 RC
 RC
 RC
-cz
+ZY
 RC
 td
 RC
@@ -60798,7 +60891,7 @@ Qa
 Qa
 Qa
 cz
-cz
+eJ
 Qa
 Qa
 Qa
@@ -61046,9 +61139,9 @@ go
 cz
 RC
 cz
-cz
-cz
-RC
+OT
+zP
+dr
 DI
 go
 go
@@ -61056,14 +61149,14 @@ RC
 td
 Qa
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
 Qa
 Qa
 td
@@ -61308,7 +61401,7 @@ go
 cz
 RC
 cz
-cz
+OT
 cz
 RC
 go
@@ -61317,16 +61410,16 @@ go
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+go
+go
+go
+go
+go
+go
+go
+go
+go
+go
 Qa
 td
 td
@@ -61579,16 +61672,16 @@ go
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+go
+go
+go
+go
+go
+go
+go
+go
+go
+go
 Qa
 td
 td
@@ -61841,16 +61934,16 @@ RC
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+go
+go
+go
+go
+go
+go
+go
+go
+go
+go
 Qa
 td
 td
@@ -62095,24 +62188,24 @@ cz
 RC
 cz
 cz
+OT
+OT
+OT
 cz
-cz
-cz
-cz
-cz
+VZ
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+go
+go
+go
+go
+go
+go
+go
+go
+go
+go
 Qa
 td
 td
@@ -62351,7 +62444,7 @@ cz
 go
 go
 go
-Ea
+go
 go
 cz
 RC
@@ -62361,20 +62454,20 @@ cz
 cz
 cz
 cz
-cz
+VZ
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+go
+AZ
+Bj
+Bj
+Bj
+Bj
+Bj
+go
+go
+go
 Qa
 td
 td
@@ -62623,20 +62716,20 @@ cz
 cz
 cz
 cz
-cz
+vI
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+go
+go
+Bj
+go
+go
+go
+Bj
+go
+go
+go
 Qa
 td
 td
@@ -62889,16 +62982,16 @@ cz
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+PA
+go
+Bj
+go
+go
+go
+Bj
+go
+go
+PA
 Qa
 td
 td
@@ -63132,7 +63225,7 @@ cz
 OT
 OT
 cz
-cz
+ZY
 cz
 go
 go
@@ -63140,27 +63233,27 @@ go
 go
 go
 cz
+ZY
 cz
-cz
-cz
-cz
+OT
+OT
 RC
 RC
 RC
-cz
+ZY
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+PA
+go
+go
+go
+go
+go
+go
+go
+go
+PA
 Qa
 td
 td
@@ -63404,25 +63497,25 @@ go
 cz
 YL
 cz
-cz
-cz
-RC
+OT
+zP
+dr
 DI
 go
 go
 RC
 td
 Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+PA
+go
+go
+PA
+PA
+PA
+go
+go
+go
+PA
 Qa
 td
 td
@@ -63666,7 +63759,7 @@ go
 cz
 RC
 cz
-cz
+OT
 cz
 RC
 go
@@ -64969,10 +65062,10 @@ cz
 cz
 cz
 Ea
-Ea
-Ea
-Ea
-Ea
+go
+go
+go
+go
 Ea
 cz
 cz
@@ -65231,10 +65324,10 @@ Ea
 Ea
 Ea
 Ea
-Ea
-Ea
-Ea
-Ea
+go
+go
+go
+go
 Ea
 Ea
 Ea
@@ -65490,7 +65583,7 @@ Ea
 Ea
 Ea
 Ea
-Ea
+go
 Bj
 Bj
 Bj
@@ -65499,7 +65592,7 @@ Bj
 Bj
 Bj
 Bj
-Ea
+go
 Ea
 Ea
 Ea
@@ -65749,9 +65842,9 @@ JH
 cz
 cz
 Ea
-Ea
-Ea
-Ea
+go
+go
+go
 Bj
 Bj
 Bj
@@ -65762,10 +65855,10 @@ Bj
 Bj
 Bj
 Bj
-Ea
-Ea
-Ea
-Ea
+go
+go
+go
+go
 Ea
 cz
 cz
@@ -66011,9 +66104,9 @@ JH
 cz
 cz
 Ea
-Ea
-Ea
-Ea
+go
+go
+go
 Bj
 Bj
 Bj
@@ -66024,10 +66117,10 @@ Bj
 Bj
 Bj
 Bj
-Ea
-Ea
-Ea
-Ea
+go
+go
+go
+go
 Ea
 cz
 cz
@@ -66273,9 +66366,9 @@ JH
 cz
 cz
 Ea
-Ea
-Ea
-Ea
+go
+go
+go
 Bj
 Bj
 Bj
@@ -66286,10 +66379,10 @@ Bj
 Bj
 Bj
 Bj
-Ea
-Ea
-Ea
-Ea
+go
+go
+go
+go
 Ea
 cz
 cz
@@ -66537,8 +66630,8 @@ cz
 Ea
 Ea
 Ea
-Ea
-Ea
+go
+go
 Bj
 Bj
 Bj
@@ -66547,7 +66640,7 @@ Bj
 Bj
 Bj
 Bj
-Ea
+go
 Ea
 Ea
 Ea
@@ -66802,12 +66895,12 @@ cz
 Ea
 Ea
 Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
+go
+go
+go
+go
+go
+go
 Ea
 Ea
 Ea
