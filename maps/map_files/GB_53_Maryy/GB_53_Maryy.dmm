@@ -429,6 +429,16 @@
 	},
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"lp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
 "ls" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "6,12"
@@ -439,6 +449,9 @@
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "lW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/space/almayer/lifeboat_dock)
@@ -834,6 +847,9 @@
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "uE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
@@ -1423,7 +1439,13 @@
 	},
 /area/space/almayer/lifeboat_dock)
 "HM" = (
-/turf/open/gm/dirt2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
 /area/space/almayer/lifeboat_dock)
 "HN" = (
 /turf/open/floor{
@@ -1450,6 +1472,13 @@
 /turf/open/floor/prison/trim/red{
 	dir = 10
 	},
+/area/space/almayer/lifeboat_dock)
+"Ij" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Io" = (
 /turf/open/gm/river/desert/deep/covered,
@@ -2135,6 +2164,10 @@
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "0,8"
 	},
+/area/space/almayer/lifeboat_dock)
+"Yc" = (
+/obj/structure/machinery/computer/cryopod/delta,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Yd" = (
 /turf/closed/shuttle/ert{
@@ -28506,7 +28539,7 @@ mT
 kK
 mT
 Me
-mT
+CO
 Me
 mT
 cz
@@ -28765,11 +28798,11 @@ mT
 CO
 cz
 Me
-mT
+Me
 bk
 lW
 LX
-Me
+Ij
 Me
 cz
 mT
@@ -29026,7 +29059,7 @@ cz
 mT
 mT
 mT
-Me
+CO
 lW
 bk
 bk
@@ -29287,12 +29320,12 @@ cz
 cz
 cz
 mT
-cz
-lW
-bk
-bk
-bk
+CO
 uE
+bk
+bk
+bk
+lW
 uE
 Me
 cz
@@ -29814,10 +29847,10 @@ td
 bk
 bk
 bk
-HM
-hP
+lW
+lp
 bk
-hP
+HM
 hP
 td
 td
@@ -30075,12 +30108,12 @@ td
 bk
 bk
 bk
+lW
 HM
-hP
 UH
 UH
+HM
 UH
-td
 td
 td
 td
@@ -30337,7 +30370,7 @@ td
 bk
 bk
 bk
-HM
+uE
 bk
 UH
 hP
@@ -33992,8 +34025,8 @@ td
 Qa
 kk
 cz
-cz
-cz
+Yc
+Yc
 cz
 cz
 cz
