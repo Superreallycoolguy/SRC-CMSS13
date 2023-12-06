@@ -1,4 +1,21 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/head/headband/red{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/clothing/glasses/regular/hipster,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"ac" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/hand_labeler,
+/obj/item/storage/firstaid/fire,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "ai" = (
 /obj/structure/machinery/door/airlock/almayer/security,
 /turf/open/floor/carpet,
@@ -18,11 +35,27 @@
 	},
 /turf/open/floor/plating/kutjevo,
 /area/space/almayer/lifeboat_dock)
+"ao" = (
+/obj/item/tool/hand_labeler,
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "aq" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"ar" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/cm_vending/sorted/tech/comtech_tools,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
 /area/space/almayer/lifeboat_dock)
 "aw" = (
 /obj/structure/pipes/vents/pump{
@@ -31,6 +64,27 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
+	},
+/area/space/almayer/lifeboat_dock)
+"ax" = (
+/obj/item/cell/apc{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/cell/hyper{
+	pixel_y = -2
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"aE" = (
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
 	},
 /area/space/almayer/lifeboat_dock)
 "aF" = (
@@ -58,9 +112,20 @@
 	icon_state = "darkbrownfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"aN" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "aQ" = (
 /obj/structure/coatrack,
 /turf/open/floor/wood/ship,
+/area/space/almayer/lifeboat_dock)
+"aS" = (
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "aU" = (
 /turf/open/floor/prison{
@@ -81,6 +146,12 @@
 "be" = (
 /obj/structure/bed,
 /turf/open/floor/carpet,
+/area/space/almayer/lifeboat_dock)
+"bf" = (
+/obj/structure/window/framed/shiva,
+/turf/open/floor/corsat{
+	icon_state = "marked"
+	},
 /area/space/almayer/lifeboat_dock)
 "bk" = (
 /turf/closed/wall/strata_ice/dirty{
@@ -106,6 +177,12 @@
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/paper_bin,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"bo" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_22"
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "bp" = (
@@ -161,6 +238,12 @@
 	icon_state = "greenfull"
 	},
 /area/space/almayer/lifeboat_dock)
+"bO" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "bR" = (
 /obj/structure/prop/dam/truck/damaged,
 /turf/open/asphalt/cement,
@@ -169,6 +252,12 @@
 /turf/closed/shuttle/ert{
 	icon_state = "upp5"
 	},
+/area/space/almayer/lifeboat_dock)
+"cf" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/fancy/cigarettes/wypacket,
+/obj/item/tool/lighter,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "ch" = (
 /turf/closed/shuttle/ert{
@@ -202,16 +291,69 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"co" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
 "cq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/space/almayer/lifeboat_dock)
+"cw" = (
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/plating/plating_catwalk,
+/area/space/almayer/lifeboat_dock)
 "cz" = (
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"cA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
+"cB" = (
+/obj/structure/cargo_container/lockmart/right{
+	layer = 3.1;
+	pixel_y = 5
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "cH" = (
 /obj/structure/prop/dam/truck/damaged,
 /turf/open/auto_turf/shale/layer0_plate,
+/area/space/almayer/lifeboat_dock)
+"cK" = (
+/obj/structure/surface/table/almayer,
+/obj/item/clothing/head/hardhat{
+	pixel_y = 15
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/obj/item/clothing/head/hardhat/orange{
+	pixel_x = 7;
+	pixel_y = -5
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"cN" = (
+/obj/structure/largecrate/random/barrel/white,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "cP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -354,6 +496,29 @@
 	},
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"dA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"dB" = (
+/obj/structure/largecrate/random/case/small,
+/obj/item/device/taperecorder{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/reagent_container/glass/bucket/mopbucket{
+	pixel_x = -9;
+	pixel_y = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "dE" = (
 /obj/structure/closet/secure_closet/guncabinet/riot_control,
 /obj/item/weapon/shield/riot,
@@ -364,6 +529,23 @@
 	},
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"dG" = (
+/obj/structure/machinery/door/airlock/almayer/maint{
+	req_one_access = null;
+	req_one_access_txt = "37";
+	access_modified = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/space/almayer/lifeboat_dock)
+"dH" = (
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
 	},
 /area/space/almayer/lifeboat_dock)
 "dI" = (
@@ -379,6 +561,18 @@
 /obj/structure/bed/chair/comfy/beige,
 /turf/open/floor/carpet,
 /area/space/almayer/lifeboat_dock)
+"dQ" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/kitchen/tray{
+	pixel_y = 9
+	},
+/obj/item/tool/kitchen/tray{
+	pixel_y = 12
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
 "dT" = (
 /obj/structure/machinery/iv_drip,
 /turf/open/floor/almayer{
@@ -387,6 +581,30 @@
 /area/space/almayer/lifeboat_dock)
 "dV" = (
 /obj/structure/cargo_container/arious/rightmid,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"dY" = (
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"dZ" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"ef" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/toy/deck{
+	pixel_x = -6;
+	pixel_y = 5
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "eh" = (
@@ -427,6 +645,15 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"ew" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
+/obj/structure/surface/table/almayer,
+/obj/item/clipboard,
+/obj/item/paper,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "ex" = (
 /obj/structure/window/framed/strata/reinforced,
 /turf/open/floor/plating,
@@ -450,6 +677,14 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "sterile_green_side"
+	},
+/area/space/almayer/lifeboat_dock)
+"eD" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkbrownfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "eH" = (
@@ -479,6 +714,25 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"eK" = (
+/obj/structure/surface/table/almayer,
+/obj/item/clothing/head/hardhat/orange{
+	pixel_x = -9;
+	pixel_y = 16
+	},
+/obj/item/clothing/suit/storage/hazardvest/blue{
+	pixel_x = -7;
+	pixel_y = -4
+	},
+/obj/item/clothing/head/hardhat{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/obj/item/clothing/suit/storage/hazardvest{
+	pixel_x = 1
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "eP" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 1
@@ -489,6 +743,14 @@
 /turf/closed/shuttle/ert{
 	icon_state = "upp27"
 	},
+/area/space/almayer/lifeboat_dock)
+"eR" = (
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/space/almayer/lifeboat_dock)
 "eT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -538,11 +800,33 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"fg" = (
+/obj/structure/machinery/computer/cameras/containment{
+	dir = 4
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "fm" = (
 /obj/structure/bed/chair/comfy/lime{
 	dir = 8
 	},
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"fo" = (
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
+"fp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/static_comms/net_one,
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_marked"
+	},
 /area/space/almayer/lifeboat_dock)
 "ft" = (
 /obj/structure/bed/chair/dropship/passenger,
@@ -596,13 +880,87 @@
 	},
 /turf/open/floor/wood/ship,
 /area/space/almayer/lifeboat_dock)
+"fH" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	name = "\improper Pilot's Office";
+	req_one_access_txt = "3;22;19";
+	access_modified = 1
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
+	},
+/area/space/almayer/lifeboat_dock)
+"fI" = (
+/obj/structure/surface/rack,
+/obj/item/stack/folding_barricade,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "fL" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/auto_turf/shale/layer0_plate,
 /area/space/almayer/lifeboat_dock)
+"fN" = (
+/turf/closed/wall/strata_outpost,
+/area/space/almayer/lifeboat_dock)
+"fP" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"fS" = (
+/obj/structure/surface/table/almayer,
+/obj/item/clothing/head/hardhat{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/obj/item/clothing/suit/storage/hazardvest{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/clothing/suit/storage/hazardvest/yellow,
+/obj/item/clothing/suit/storage/hazardvest{
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"fT" = (
+/obj/structure/prop/dam/crane{
+	icon_state = "tractor";
+	name = "tractor"
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"fU" = (
+/obj/structure/prop/server_equipment{
+	icon_state = "rackframe_broken"
+	},
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_marked"
+	},
+/area/space/almayer/lifeboat_dock)
 "fV" = (
 /obj/structure/machinery/door/airlock/almayer/secure,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"ga" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/surface/rack,
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "gb" = (
 /turf/closed/shuttle/ert{
@@ -665,11 +1023,73 @@
 /obj/structure/curtain/open/shower,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"gz" = (
+/obj/item/trash/barcardine,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"gA" = (
+/obj/structure/prop/server_equipment/yutani_server/off{
+	density = 0;
+	pixel_x = 6;
+	pixel_y = 16
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"gC" = (
+/obj/structure/machinery/computer/working_joe{
+	dir = 8
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"gE" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
+"gF" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/surface/table/almayer,
+/obj/item/book/manual/chef_recipes,
+/obj/item/reagent_container/food/condiment/sugar{
+	pixel_x = 10
+	},
+/obj/item/clothing/head/chefhat,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
 "gG" = (
 /turf/closed/shuttle/ert{
 	icon_state = "rightengine_2";
 	opacity = 0;
 	name = "Fulcrum"
+	},
+/area/space/almayer/lifeboat_dock)
+"gH" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/machinery/computer/working_joe,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"gJ" = (
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"gK" = (
+/turf/open/floor/prison{
+	icon_state = "kitchen"
 	},
 /area/space/almayer/lifeboat_dock)
 "gN" = (
@@ -732,14 +1152,63 @@
 	icon_state = "test_floor4"
 	},
 /area/space/almayer/lifeboat_dock)
+"hf" = (
+/obj/structure/sign/safety/hazard{
+	pixel_x = -17;
+	pixel_y = -8
+	},
+/obj/structure/sign/safety/ammunition{
+	pixel_x = -17;
+	pixel_y = 7
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "hj" = (
 /turf/closed/shuttle/ert{
 	icon_state = "upp_leftengine"
 	},
 /area/space/almayer/lifeboat_dock)
+"hl" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/station_alert,
+/obj/structure/sign/safety/maint{
+	pixel_x = 32
+	},
+/obj/structure/sign/safety/terminal{
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"hm" = (
+/obj/structure/closet/secure_closet/freezer/fridge/full,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "hp" = (
 /obj/structure/machinery/hydro_floodlight,
 /turf/open/floor/almayer,
+/area/space/almayer/lifeboat_dock)
+"hs" = (
+/obj/structure/prop/turbine_extras/left,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"ht" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/sign/safety/distribution_pipes{
+	pixel_x = 32
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "hv" = (
 /obj/structure/surface/table/almayer,
@@ -754,11 +1223,29 @@
 	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"hA" = (
+/obj/structure/machinery/prop/almayer/computer{
+	dir = 4;
+	pixel_x = -17
+	},
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 8;
+	pixel_y = -24
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "hB" = (
 /obj/structure/platform{
 	dir = 1
 	},
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"hD" = (
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "hE" = (
 /obj/structure/window/framed/prison,
@@ -807,6 +1294,16 @@
 /obj/structure/prop/dam/truck,
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"ij" = (
+/obj/structure/largecrate/random/barrel/yellow,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"is" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "iu" = (
 /obj/structure/machinery/light/double{
 	dir = 1
@@ -818,6 +1315,10 @@
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
 	},
+/area/space/almayer/lifeboat_dock)
+"iw" = (
+/obj/item/weapon/dart/green,
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "ix" = (
 /obj/structure/closet,
@@ -840,6 +1341,30 @@
 	dir = 1;
 	icon_state = "blue_plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"iH" = (
+/obj/structure/machinery/light,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"iI" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ashtray/bronze,
+/obj/item/trash/cigbutt/cigarbutt{
+	pixel_x = 6;
+	pixel_y = 13
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"iM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/dam/crane{
+	icon_state = "tractor";
+	name = "tractor"
+	},
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "iN" = (
 /turf/closed/shuttle/twe_dropship{
@@ -871,6 +1396,12 @@
 /obj/structure/largecrate/random/barrel,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
+/area/space/almayer/lifeboat_dock)
+"ja" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost/reinforced/hull,
 /area/space/almayer/lifeboat_dock)
 "jb" = (
 /turf/closed/shuttle/twe_dropship{
@@ -907,6 +1438,20 @@
 /obj/structure/cargo_container/grant/right,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"jl" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
+	dir = 1;
+	name = "\improper Particle Cannon Systems Room";
+	req_access = null;
+	req_one_access_txt = "3;19";
+	access_modified = 1
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "jn" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/shuttle/ert{
@@ -926,6 +1471,11 @@
 	icon_state = "upp25"
 	},
 /area/space/almayer/lifeboat_dock)
+"jy" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/reagent_container/food/drinks/bottle/vodka/chess,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "jC" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "8,6"
@@ -934,6 +1484,12 @@
 "jF" = (
 /obj/structure/cargo_container/grant/left,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"jH" = (
+/obj/structure/window/framed/almayer,
+/obj/structure/window/framed/strata,
+/obj/structure/window/framed/strata,
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "jI" = (
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -948,6 +1504,16 @@
 	icon_state = "T4";
 	name = "Fulcrum";
 	opacity = 0
+	},
+/area/space/almayer/lifeboat_dock)
+"jL" = (
+/obj/structure/sign/safety/hazard{
+	desc = "A sign that warns of a hazardous environment nearby";
+	name = "\improper Warning: Hazardous Environment"
+	},
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
 	},
 /area/space/almayer/lifeboat_dock)
 "jN" = (
@@ -967,6 +1533,20 @@
 	},
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"jQ" = (
+/obj/structure/machinery/power/smes/buildable,
+/obj/structure/sign/safety/hazard{
+	pixel_x = 15;
+	pixel_y = -32
+	},
+/obj/structure/sign/safety/high_voltage{
+	pixel_y = -32
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "jS" = (
@@ -996,6 +1576,23 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"kc" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"ke" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
 "kg" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "3,14"
@@ -1012,11 +1609,25 @@
 /obj/structure/machinery/blackbox_recorder,
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"km" = (
+/obj/structure/machinery/power/terminal,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "kq" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
 /turf/open/floor/prison{
 	dir = 8;
 	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
+"kr" = (
+/obj/structure/machinery/computer/working_joe{
+	dir = 4;
+	pixel_x = -17
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "kt" = (
@@ -1027,6 +1638,13 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/lifeboat,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"kw" = (
+/obj/structure/prop/turbine_extras/border,
+/obj/structure/prop/turbine,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "kx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/shuttle/ert{
@@ -1036,6 +1654,24 @@
 "ky" = (
 /obj/structure/machinery/landinglight/ds1,
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"kB" = (
+/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"kE" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/golden_cup{
+	desc = "A golden cup, won in the championship final against the USS Sulaco ca. 2172";
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "kF" = (
 /obj/structure/pipes/vents/pump{
@@ -1067,6 +1703,12 @@
 	desc = "Hardened and dense formations of stone and ore. You are not getting through here without some serious mining equipment"
 	},
 /area/space/almayer/lifeboat_dock)
+"kM" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin/uscm,
+/obj/item/tool/pen,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "kS" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -1081,6 +1723,29 @@
 /area/space/almayer/lifeboat_dock)
 "kX" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"kZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/safety/maint{
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/open/floor/prison{
+	icon_state = "darkbrownfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"lb" = (
+/obj/structure/largecrate/random/case,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"ld" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "lf" = (
@@ -1132,6 +1797,31 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"lC" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"lD" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/emails{
+	dir = 1
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"lL" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "lM" = (
 /obj/structure/bed/chair/office,
 /turf/open/floor/prison,
@@ -1146,6 +1836,13 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"lQ" = (
+/obj/structure/sign/safety/bathunisex{
+	pixel_x = 8;
+	pixel_y = -32
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "lW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1156,6 +1853,16 @@
 "lZ" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/prop/pred_flight,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"mc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 8
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "md" = (
@@ -1184,6 +1891,10 @@
 	},
 /turf/open/auto_turf/shale/layer0_plate,
 /area/space/almayer/lifeboat_dock)
+"mp" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "mt" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S-corner"
@@ -1202,10 +1913,21 @@
 /obj/structure/machinery/door/airlock/almayer/security/glass/reinforced,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"mx" = (
+/obj/structure/machinery/recharger,
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "my" = (
 /obj/structure/window/reinforced{
 	dir = 1;
 	layer = 3
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"mA" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 1
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
@@ -1230,6 +1952,12 @@
 	icon_state = "rasputin15"
 	},
 /area/space/almayer/lifeboat_dock)
+"mL" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "mP" = (
 /turf/open/floor/prison{
 	dir = 4;
@@ -1248,12 +1976,26 @@
 	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"mS" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/machinery/space_heater,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "mT" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "mU" = (
 /turf/open/shuttle/dropship,
+/area/space/almayer/lifeboat_dock)
+"mX" = (
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "mY" = (
 /obj/item/ashtray/bronze{
@@ -1274,6 +2016,11 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"nc" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/surface/table/almayer,
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "nd" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
@@ -1299,10 +2046,31 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"np" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/toolbox/mechanical/green,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/space/almayer/lifeboat_dock)
+"nr" = (
+/obj/item/paper_bin/uscm,
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"nt" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
 "nx" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "1,4"
 	},
+/area/space/almayer/lifeboat_dock)
+"nD" = (
+/obj/structure/largecrate/random/case,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "nF" = (
 /obj/structure/machinery/cryo_cell,
@@ -1312,11 +2080,23 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"nL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "nN" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/prop/almayer/CICmap/upp,
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"nT" = (
+/obj/structure/machinery/power/port_gen/pacman/super,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "ob" = (
@@ -1329,6 +2109,27 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "sterile_green_side"
+	},
+/area/space/almayer/lifeboat_dock)
+"od" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/surface/table/almayer,
+/obj/item/trash/plate{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/trash/plate{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = 4
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -4
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
 	},
 /area/space/almayer/lifeboat_dock)
 "oe" = (
@@ -1348,6 +2149,18 @@
 /obj/structure/largecrate/random/barrel/red,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
+/area/space/almayer/lifeboat_dock)
+"oi" = (
+/obj/structure/surface/table/almayer,
+/obj/item/stack/rods/plasteel{
+	amount = 36
+	},
+/obj/item/stack/catwalk{
+	amount = 60;
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "oj" = (
 /turf/closed/shuttle/ert{
@@ -1390,6 +2203,11 @@
 	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"oy" = (
+/obj/structure/window/framed/almayer,
+/obj/structure/window/framed/strata,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "oB" = (
 /obj/item/weapon/twohanded/folded_metal_chair{
 	pixel_x = -7;
@@ -1397,11 +2215,22 @@
 	},
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"oD" = (
+/obj/item/tool/wet_sign,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "oL" = (
 /obj/structure/bed/sofa/vert/grey/top,
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
+/area/space/almayer/lifeboat_dock)
+"oM" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "oO" = (
 /obj/structure/window/framed/prison/reinforced/hull,
@@ -1427,6 +2256,13 @@
 	},
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"oX" = (
+/obj/structure/sign/safety/maint{
+	pixel_x = 8;
+	pixel_y = -32
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "oY" = (
 /turf/closed/shuttle/ert{
 	icon_state = "upp20";
@@ -1448,6 +2284,12 @@
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "8,7"
 	},
+/area/space/almayer/lifeboat_dock)
+"po" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "pq" = (
 /turf/closed/shuttle/twe_dropship{
@@ -1482,6 +2324,14 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"pJ" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	name = "Bathroom"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/space/almayer/lifeboat_dock)
 "pL" = (
 /obj/structure/machinery/cm_vending/sorted/medical,
 /turf/open/floor/prison{
@@ -1491,6 +2341,12 @@
 /area/space/almayer/lifeboat_dock)
 "pQ" = (
 /turf/closed/wall/mineral/bone_resin,
+/area/space/almayer/lifeboat_dock)
+"pU" = (
+/obj/structure/machinery/door/airlock/almayer/security/colony{
+	dir = 8
+	},
+/turf/open/space/basic,
 /area/space/almayer/lifeboat_dock)
 "pX" = (
 /obj/structure/machinery/cm_vending/sorted/medical,
@@ -1502,6 +2358,11 @@
 	dir = 1;
 	icon_state = "blue_plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"pY" = (
+/obj/item/tool/wet_sign,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "qa" = (
 /obj/structure/bed{
@@ -1517,6 +2378,13 @@
 /obj/structure/sign/catclock,
 /turf/closed/wall/prison,
 /area/space/almayer/lifeboat_dock)
+"qd" = (
+/obj/structure/machinery/computer/cameras/almayer_network{
+	dir = 1
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "qg" = (
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/prison,
@@ -1525,6 +2393,23 @@
 /turf/closed/shuttle/ert{
 	icon_state = "upp20"
 	},
+/area/space/almayer/lifeboat_dock)
+"qk" = (
+/obj/structure/fence{
+	layer = 2.9
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"ql" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/cans/souto/blue{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/space/almayer/lifeboat_dock)
 "qm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1536,12 +2421,29 @@
 	icon_state = "cell_stripe"
 	},
 /area/space/almayer/lifeboat_dock)
+"qo" = (
+/obj/item/tool/warning_cone{
+	pixel_y = 13
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "qr" = (
 /obj/structure/machinery/chem_master,
 /turf/open/floor/prison{
 	dir = 1;
 	icon_state = "blue_plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"qt" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/wrench{
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"qv" = (
+/obj/structure/cargo_container/arious/mid,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "qw" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -1552,6 +2454,10 @@
 	dir = 1;
 	icon_state = "blue_plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"qA" = (
+/obj/structure/cargo_container/kelland/left,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "qD" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -1638,6 +2544,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/space/almayer/lifeboat_dock)
+"ri" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/space/almayer/lifeboat_dock)
 "rk" = (
 /turf/closed/shuttle/ert{
 	icon_state = "leftengine_1";
@@ -1651,6 +2563,13 @@
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "7,3"
 	},
+/area/space/almayer/lifeboat_dock)
+"rn" = (
+/obj/item/clothing/mask/rebreather/scarf,
+/obj/structure/closet/secure_closet/personal/cabinet{
+	req_access = null
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "ro" = (
 /obj/structure/machinery/light/small{
@@ -1698,6 +2617,21 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"rC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/structure/machinery/door_control{
+	id = "kitchen";
+	name = "Kitchen Shutters";
+	pixel_x = -25
+	},
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
 "rD" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 4
@@ -1741,6 +2675,18 @@
 /obj/structure/prop/ice_colony/soil_net,
 /turf/open/floor/almayer,
 /area/space/almayer/lifeboat_dock)
+"rS" = (
+/obj/structure/surface/rack,
+/obj/item/stack/folding_barricade,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/structure/machinery/camera/autoname{
+	dir = 8
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "rT" = (
 /obj/structure/window/framed/prison,
 /turf/open/floor/prison/trim/red{
@@ -1770,6 +2716,10 @@
 	opacity = 0;
 	name = "Fulcrum"
 	},
+/area/space/almayer/lifeboat_dock)
+"si" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "sk" = (
 /turf/closed/shuttle/twe_dropship{
@@ -1855,6 +2805,14 @@
 	icon_state = "0,5"
 	},
 /area/space/almayer/lifeboat_dock)
+"sW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/space/almayer/lifeboat_dock)
 "sY" = (
 /turf/open/floor/prison{
 	dir = 1;
@@ -1873,6 +2831,13 @@
 	icon_state = "sterile_white"
 	},
 /area/space/almayer/lifeboat_dock)
+"tg" = (
+/obj/item/storage/box/nade_box/tear_gas,
+/obj/structure/closet/secure_closet/security/soro,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "th" = (
 /obj/structure/machinery/landinglight/ds1/delaythree,
 /turf/open/floor/plating,
@@ -1883,9 +2848,28 @@
 	name = "Fulcrum"
 	},
 /area/space/almayer/lifeboat_dock)
+"to" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/machinery/cell_charger,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "tq" = (
 /obj/structure/surface/rack,
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"tt" = (
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "tu" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
@@ -1923,6 +2907,13 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"tK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "tP" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "7,6"
@@ -1935,6 +2926,11 @@
 	icon_state = "rasputin3"
 	},
 /area/space/almayer/lifeboat_dock)
+"tT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/space/almayer/lifeboat_dock)
 "tX" = (
 /turf/closed/shuttle/ert{
 	icon_state = "T2";
@@ -1942,9 +2938,24 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"ua" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/prison{
+	icon_state = "darkbrownfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "ub" = (
 /obj/structure/largecrate,
 /turf/open/floor/almayer,
+/area/space/almayer/lifeboat_dock)
+"ud" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
 /area/space/almayer/lifeboat_dock)
 "uf" = (
 /obj/structure/filtration/machine_96x96/indestructible{
@@ -2021,6 +3032,22 @@
 /obj/structure/window/framed/almayer/white,
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"uJ" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"uK" = (
+/obj/structure/prop/server_equipment/yutani_server{
+	density = 0;
+	pixel_x = -6;
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "uO" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -2045,6 +3072,27 @@
 /obj/structure/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"uU" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"uW" = (
+/obj/structure/surface/table/almayer,
+/obj/item/stack/sheet/glass{
+	amount = 20;
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/weapon/dart,
+/obj/item/weapon/dart,
+/obj/item/weapon/dart,
+/obj/item/weapon/dart/green,
+/obj/item/weapon/dart/green,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "uX" = (
 /obj/structure/machinery/light/small{
 	dir = 1;
@@ -2054,9 +3102,28 @@
 	icon_state = "rasputin3"
 	},
 /area/space/almayer/lifeboat_dock)
+"uZ" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"vb" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/pen,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "vc" = (
 /obj/structure/prop/almayer/computers/sensor_computer2,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"vd" = (
+/obj/structure/pipes/vents/pump,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
 /area/space/almayer/lifeboat_dock)
 "vf" = (
 /obj/effect/decal/hefa_cult_decals/d96,
@@ -2068,6 +3135,33 @@
 	layer = 3.25
 	},
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"vj" = (
+/obj/structure/surface/rack,
+/obj/item/stack/folding_barricade,
+/obj/item/weapon/gun/rifle/type71/carbine,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"vk" = (
+/obj/structure/sign/safety/bulkhead_door{
+	pixel_x = 8;
+	pixel_y = -32
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"vm" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "vo" = (
 /turf/closed/shuttle/twe_dropship{
@@ -2101,6 +3195,15 @@
 	icon_state = "greenfull"
 	},
 /area/space/almayer/lifeboat_dock)
+"vx" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/weldingtool{
+	pixel_x = 6;
+	pixel_y = -16
+	},
+/obj/item/clothing/head/welding,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "vy" = (
 /obj/structure/largecrate/black_market,
 /turf/open/asphalt/cement,
@@ -2117,6 +3220,17 @@
 	name = "Fulcrum"
 	},
 /area/space/almayer/lifeboat_dock)
+"vG" = (
+/obj/structure/surface/rack,
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/item/stack/folding_barricade,
+/obj/item/weapon/gun/rifle/type71/carbine,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "vH" = (
 /obj/docking_port/stationary/marine_dropship/lz1{
 	name = "Nexus Landing Zone"
@@ -2126,6 +3240,24 @@
 "vI" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"vJ" = (
+/obj/structure/surface/table/almayer,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/space/almayer/lifeboat_dock)
+"vM" = (
+/obj/structure/machinery/vending/coffee{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/structure/machinery/vending/snack{
+	pixel_x = -18;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "vO" = (
 /obj/structure/grille/fence/north_south{
@@ -2138,6 +3270,10 @@
 	dir = 4;
 	icon_state = "darkyellowfull2"
 	},
+/area/space/almayer/lifeboat_dock)
+"vS" = (
+/obj/structure/cargo_container/kelland/right,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "vT" = (
 /obj/structure/prop/almayer/computers/mapping_computer,
@@ -2177,6 +3313,27 @@
 /obj/structure/surface/table/gamblingtable,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"wj" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21";
+	pixel_x = -1;
+	pixel_y = 11
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"wl" = (
+/obj/item/trash/chips,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"wm" = (
+/obj/structure/surface/table/almayer,
+/obj/item/clothing/gloves/yellow,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "wn" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
@@ -2184,6 +3341,13 @@
 /turf/closed/shuttle/ert{
 	icon_state = "upp5";
 	name = "Fulcrum"
+	},
+/area/space/almayer/lifeboat_dock)
+"wp" = (
+/obj/structure/machinery/telecomms/bus/preset_one,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "wq" = (
@@ -2211,6 +3375,23 @@
 /obj/structure/largecrate/black_market/clf_supplies,
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"wN" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/door_control{
+	id = "Hangar Lockdown";
+	name = "Hangar Lockdown";
+	req_one_access_txt = "3;19;22"
+	},
+/turf/open/floor/prison{
+	icon_state = "darkbrownfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"wP" = (
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_marked"
+	},
+/area/space/almayer/lifeboat_dock)
 "xa" = (
 /obj/item/ore/diamond,
 /obj/item/stack/sheet/mineral/diamond{
@@ -2219,6 +3400,14 @@
 	},
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"xc" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/cans/souto/diet/lime{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/space/almayer/lifeboat_dock)
 "xd" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
@@ -2244,13 +3433,52 @@
 	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"xg" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"xh" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/bag/trash{
+	pixel_x = -3
+	},
+/obj/structure/machinery/power/apc/almayer{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "xi" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"xp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "xr" = (
 /obj/structure/largecrate/supply/supplies/water,
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"xu" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/surface/table/almayer,
+/obj/item/tool/kitchen/rollingpin,
+/obj/item/tool/kitchen/knife,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
 /area/space/almayer/lifeboat_dock)
 "xw" = (
 /obj/effect/landmark/hunter_secondary,
@@ -2283,6 +3511,18 @@
 	icon_state = "dark_sterile"
 	},
 /area/space/almayer/lifeboat_dock)
+"xB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "xC" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 2;
@@ -2297,6 +3537,11 @@
 /turf/open/floor/prison/trim/red{
 	dir = 8
 	},
+/area/space/almayer/lifeboat_dock)
+"xL" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/box/cups,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "xM" = (
 /obj/structure/barricade/handrail/medical{
@@ -2321,6 +3566,14 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"xT" = (
+/obj/structure/fence{
+	layer = 2.9
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "xY" = (
 /obj/structure/fence,
 /turf/open/asphalt/cement,
@@ -2330,6 +3583,17 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "sterile_green_side"
+	},
+/area/space/almayer/lifeboat_dock)
+"yf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
 	},
 /area/space/almayer/lifeboat_dock)
 "yh" = (
@@ -2347,6 +3611,14 @@
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin3"
 	},
+/area/space/almayer/lifeboat_dock)
+"ys" = (
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"yt" = (
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/plating/plating_catwalk,
 /area/space/almayer/lifeboat_dock)
 "yu" = (
 /turf/open/shuttle/dropship{
@@ -2391,10 +3663,32 @@
 	dir = 3
 	},
 /area/space/almayer/lifeboat_dock)
+"yK" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/radio{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"yO" = (
+/obj/structure/machinery/door/airlock/almayer/security,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
 "yP" = (
 /turf/open/floor/prison{
 	dir = 4;
 	icon_state = "greenfull"
+	},
+/area/space/almayer/lifeboat_dock)
+"yT" = (
+/obj/structure/prop/dam/truck/mining,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "yV" = (
@@ -2417,6 +3711,12 @@
 	dir = 3
 	},
 /area/space/almayer/lifeboat_dock)
+"yX" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "yY" = (
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 8
@@ -2432,6 +3732,12 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
+	},
+/area/space/almayer/lifeboat_dock)
+"zd" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
 "zk" = (
@@ -2453,9 +3759,24 @@
 	icon_state = "rasputin3"
 	},
 /area/space/almayer/lifeboat_dock)
+"zq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "zr" = (
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"zt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_marked"
 	},
 /area/space/almayer/lifeboat_dock)
 "zu" = (
@@ -2554,6 +3875,15 @@
 	icon_state = "rasputin15"
 	},
 /area/space/almayer/lifeboat_dock)
+"Ac" = (
+/obj/structure/closet/secure_closet/freezer/fridge/groceries,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "Ad" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/shuttle/ert{
@@ -2572,6 +3902,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/shuttle/ert{
 	icon_state = "upp4"
+	},
+/area/space/almayer/lifeboat_dock)
+"An" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 1
+	},
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
 	},
 /area/space/almayer/lifeboat_dock)
 "Ao" = (
@@ -2627,6 +3967,10 @@
 	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"AA" = (
+/obj/structure/largecrate/supply/supplies/tables_racks,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "AB" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 1
@@ -2659,6 +4003,13 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"AM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "AO" = (
 /obj/structure/filingcabinet{
 	dir = 1
@@ -2674,6 +4025,17 @@
 	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"AW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/space/almayer/lifeboat_dock)
+"AX" = (
+/obj/structure/largecrate/random/case/small,
+/turf/open/floor/plating/plating_catwalk,
+/area/space/almayer/lifeboat_dock)
 "AY" = (
 /obj/structure/cargo_container/grant/rightmid,
 /turf/open/shuttle/dropship{
@@ -2686,8 +4048,26 @@
 	},
 /turf/open/floor/carpet,
 /area/space/almayer/lifeboat_dock)
+"Bc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/port_gen/pacman,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "Bd" = (
 /turf/open/gm/river,
+/area/space/almayer/lifeboat_dock)
+"Bf" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "Bg" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -2695,9 +4075,20 @@
 /obj/item/tool/pen/blue/clicky,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"Bh" = (
+/obj/structure/largecrate/random/case/small,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "Bj" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/carpet,
+/area/space/almayer/lifeboat_dock)
+"Bp" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
 /area/space/almayer/lifeboat_dock)
 "Bu" = (
 /obj/structure/prop/pred_flight,
@@ -2712,6 +4103,22 @@
 /obj/structure/cargo_container/grant/rightmid,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
+/area/space/almayer/lifeboat_dock)
+"BD" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"BE" = (
+/obj/structure/machinery/light,
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/recharger,
+/obj/item/clothing/glasses/kutjevo,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
 /area/space/almayer/lifeboat_dock)
 "BF" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -2743,6 +4150,12 @@
 /obj/item/folder/red,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"BR" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "BU" = (
 /obj/structure/machinery/computer/arcade,
 /obj/item/reagent_container/food/drinks/bottle/vodka/chess/w_bishop{
@@ -2762,6 +4175,13 @@
 	dir = 4;
 	icon_state = "cell_stripe"
 	},
+/area/space/almayer/lifeboat_dock)
+"BW" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -12;
+	pixel_y = 16
+	},
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "BY" = (
 /obj/structure/window/reinforced{
@@ -2834,6 +4254,13 @@
 	name = "Fulcrum";
 	opacity = 0
 	},
+/area/space/almayer/lifeboat_dock)
+"Co" = (
+/obj/structure/machinery/computer/cameras/almayer/vehicle{
+	dir = 4
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Ct" = (
 /obj/item/storage/box/matches{
@@ -2909,6 +4336,13 @@
 	},
 /turf/open/floor/carpet,
 /area/space/almayer/lifeboat_dock)
+"CR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "CS" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/view_objectives{
@@ -2934,6 +4368,36 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
+	},
+/area/space/almayer/lifeboat_dock)
+"CZ" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	layer = 3.3;
+	pixel_y = 4
+	},
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.2
+	},
+/obj/item/bedsheet/brown{
+	pixel_y = 13
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "Db" = (
@@ -2973,6 +4437,10 @@
 	},
 /turf/closed/wall/prison,
 /area/space/almayer/lifeboat_dock)
+"Dv" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Dy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S-corner"
@@ -2993,6 +4461,24 @@
 /obj/item/paper_bin,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"DE" = (
+/obj/item/cell/crap{
+	pixel_x = -8;
+	pixel_y = -5
+	},
+/obj/item/cell/crap{
+	pixel_y = 8
+	},
+/obj/item/cell{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "DI" = (
 /obj/structure/safe,
 /turf/open/floor/carpet,
@@ -3003,6 +4489,14 @@
 /area/space/almayer/lifeboat_dock)
 "DR" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"DS" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/prop/ice_colony/hula_girl{
+	pixel_x = 10;
+	pixel_y = -4
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "DV" = (
@@ -3083,11 +4577,38 @@
 	icon_state = "upp23"
 	},
 /area/space/almayer/lifeboat_dock)
+"Er" = (
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/plating/plating_catwalk,
+/area/space/almayer/lifeboat_dock)
+"Et" = (
+/turf/open/floor/corsat{
+	icon_state = "marked"
+	},
+/area/space/almayer/lifeboat_dock)
+"Eu" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/autoname,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Ey" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Electronics Storage"
+	},
+/turf/open/floor/corsat{
+	icon_state = "marked"
+	},
+/area/space/almayer/lifeboat_dock)
 "EA" = (
 /turf/closed/shuttle/ert{
 	icon_state = "leftengine_3";
 	opacity = 0
 	},
+/area/space/almayer/lifeboat_dock)
+"EC" = (
+/obj/item/folder/black_random,
+/obj/item/folder/black_random,
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "EG" = (
 /obj/structure/machinery/light/double{
@@ -3110,6 +4631,13 @@
 	dir = 4;
 	pixel_x = -33
 	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"EN" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "EP" = (
@@ -3150,6 +4678,15 @@
 	},
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"Fk" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
+	},
+/area/space/almayer/lifeboat_dock)
 "Fn" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 8
@@ -3174,6 +4711,21 @@
 /obj/structure/window/framed/prison,
 /turf/open/floor/prison/trim/red,
 /area/space/almayer/lifeboat_dock)
+"Ft" = (
+/obj/structure/surface/table/almayer,
+/obj/item/pizzabox/meat,
+/obj/item/reagent_container/food/drinks/cans/souto/diet/peach{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/reagent_container/food/drinks/cans/souto/diet/cherry{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "Fv" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "1,1"
@@ -3193,11 +4745,32 @@
 	icon_state = "rasputin3"
 	},
 /area/space/almayer/lifeboat_dock)
+"FB" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/tool/crowbar,
+/obj/item/clothing/head/headset{
+	pixel_y = -7
+	},
+/obj/item/storage/bible,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"FH" = (
+/obj/structure/largecrate/random/case/small,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
 "FI" = (
 /turf/open/floor{
 	dir = 1;
 	icon_state = "warningcorner"
 	},
+/area/space/almayer/lifeboat_dock)
+"FN" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "FO" = (
 /obj/structure/surface/table/almayer,
@@ -3206,6 +4779,12 @@
 	dir = 1;
 	icon_state = "blue_plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"FQ" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/wirecutters,
+/obj/item/tool/crowbar,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "FR" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -3237,6 +4816,16 @@
 /obj/structure/prop/dam/truck/mining,
 /turf/open/auto_turf/shale/layer0_plate,
 /area/space/almayer/lifeboat_dock)
+"FW" = (
+/obj/structure/machinery/vending/coffee,
+/obj/item/toy/bikehorn/rubberducky{
+	desc = "You feel as though this rubber duck has been here for a long time. It's Mr. Quackers! He loves you!";
+	name = "Quackers";
+	pixel_x = 5;
+	pixel_y = 17
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "FX" = (
 /obj/structure/sink{
 	pixel_y = 32
@@ -3256,6 +4845,15 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"Ge" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Electronics Storage"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/corsat{
+	icon_state = "marked"
+	},
+/area/space/almayer/lifeboat_dock)
 "Gg" = (
 /obj/structure/powerloader_wreckage,
 /turf/open/shuttle/dropship{
@@ -3274,10 +4872,23 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"Gl" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/space/almayer/lifeboat_dock)
 "Gq" = (
 /obj/structure/window/framed/prison,
 /turf/open/floor/prison/trim/red{
 	dir = 4
+	},
+/area/space/almayer/lifeboat_dock)
+"Gt" = (
+/obj/structure/surface/table/almayer,
+/obj/item/weapon/gun/revolver/m44{
+	desc = "A bulky revolver, occasionally carried by assault troops and officers in the Colonial Marines, as well as civilian law enforcement. Fires .44 Magnum rounds. 'J.P' Is engraved into the barrel."
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
 "Gu" = (
@@ -3350,10 +4961,28 @@
 	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"GX" = (
+/obj/structure/surface/table/almayer,
+/obj/item/trash/pistachios,
+/obj/item/tool/lighter/random{
+	pixel_x = 13
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "Hd" = (
 /turf/closed/shuttle/ert{
 	icon_state = "upp21";
 	name = "Fulcrum"
+	},
+/area/space/almayer/lifeboat_dock)
+"Hl" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment{
+	dir = 4;
+	id = "Containment Cell 2";
+	name = "\improper Containment Cell 2"
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "Ho" = (
@@ -3371,6 +5000,25 @@
 	icon_state = "rasputin5"
 	},
 /area/space/almayer/lifeboat_dock)
+"Hx" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/space/almayer/lifeboat_dock)
+"Hy" = (
+/obj/structure/surface/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Hz" = (
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/plating/plating_catwalk,
+/area/space/almayer/lifeboat_dock)
+"HA" = (
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/plating/plating_catwalk,
+/area/space/almayer/lifeboat_dock)
 "HE" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "7,2"
@@ -3382,6 +5030,11 @@
 	name = "Fulcrum";
 	opacity = 0
 	},
+/area/space/almayer/lifeboat_dock)
+"HI" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "HM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3415,6 +5068,23 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/space/almayer/lifeboat_dock)
+"HR" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin/uscm,
+/obj/item/tool/pen,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"HS" = (
+/obj/structure/machinery/door_control{
+	id = "dccbunk";
+	name = "DCC Privacy Shutters";
+	pixel_x = 24
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "HU" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/overwatch/almayer{
@@ -3426,7 +5096,10 @@
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "HX" = (
-/obj/structure/prop/dam/truck,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/photocopier,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "HY" = (
@@ -3442,6 +5115,31 @@
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
 	},
+/area/space/almayer/lifeboat_dock)
+"Ia" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Ib" = (
+/obj/structure/prop/turbine_extras,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"Ic" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/auto_turf/sand_white/layer0,
 /area/space/almayer/lifeboat_dock)
 "Id" = (
 /turf/closed/shuttle/ert{
@@ -3459,6 +5157,22 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Im" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 8
+	},
+/obj/structure/surface/table/almayer,
+/obj/item/device/flashlight/lamp{
+	layer = 3.5;
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/obj/item/attachable/bayonet{
+	pixel_x = -14;
+	pixel_y = 3
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Io" = (
@@ -3516,6 +5230,11 @@
 	},
 /turf/open/floor/carpet,
 /area/space/almayer/lifeboat_dock)
+"IL" = (
+/obj/structure/surface/table/almayer,
+/obj/item/folder/black,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "IM" = (
 /turf/open/floor{
 	dir = 4;
@@ -3565,6 +5284,10 @@
 /obj/structure/window/framed/prison,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"Jr" = (
+/obj/structure/machinery/light,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "Jt" = (
 /obj/structure/surface/table/almayer,
 /obj/item/roller,
@@ -3587,6 +5310,23 @@
 /turf/closed/shuttle/ert{
 	icon_state = "upp27"
 	},
+/area/space/almayer/lifeboat_dock)
+"JA" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	icon_state = "darkbrownfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"JB" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/prop/ice_colony/hula_girl{
+	pixel_x = 10;
+	pixel_y = -4
+	},
+/obj/item/reagent_container/food/drinks/bottle/vodka/chess,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "JC" = (
 /obj/structure/filingcabinet{
@@ -3669,6 +5409,19 @@
 /obj/structure/prop/invuln/minecart_tracks,
 /turf/open/floor/almayer,
 /area/space/almayer/lifeboat_dock)
+"JY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/vehicles/crawler{
+	dir = 8;
+	icon_state = "crawler_fuel"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Kb" = (
+/obj/structure/largecrate/random/case/small,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Kc" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "1,0"
@@ -3710,6 +5463,14 @@
 /area/space/almayer/lifeboat_dock)
 "Ks" = (
 /obj/structure/surface/table/almayer,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Kt" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper,
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_y = 25
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "KB" = (
@@ -3760,6 +5521,18 @@
 	icon_state = "greenfull"
 	},
 /area/space/almayer/lifeboat_dock)
+"KH" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"KI" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "KK" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -3775,6 +5548,15 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"KL" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
 	},
 /area/space/almayer/lifeboat_dock)
 "KN" = (
@@ -3817,10 +5599,29 @@
 /obj/structure/machinery/landinglight/ds1/delayone,
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"Ln" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment{
+	dir = 4;
+	id = "Containment Cell 2";
+	name = "\improper Containment Cell 2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "Lr" = (
 /obj/structure/prop/invuln/fire,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
+/area/space/almayer/lifeboat_dock)
+"Ls" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Lt" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -3860,6 +5661,28 @@
 /turf/open/floor/prison/trim/red{
 	dir = 4
 	},
+/area/space/almayer/lifeboat_dock)
+"LK" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"LL" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/prop/almayer/computer,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/safety/intercom{
+	pixel_x = 15;
+	pixel_y = 32
+	},
+/obj/structure/sign/safety/terminal{
+	pixel_y = 32
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "LM" = (
 /obj/structure/sink{
@@ -3912,6 +5735,11 @@
 	name = "Deep Rock Formations";
 	desc = "Hardened and dense formations of stone and ore. You are not getting through here without some serious mining equipment"
 	},
+/area/space/almayer/lifeboat_dock)
+"LY" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/prop/almayer/CICmap,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Mb" = (
 /obj/item/tool/candle,
@@ -4010,6 +5838,20 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"Mv" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
+	dir = 1;
+	name = "\improper Particle Cannon Systems Room";
+	req_access = null;
+	req_one_access_txt = "3;19";
+	access_modified = 1
+	},
+/turf/closed/wall/prison,
+/area/space/almayer/lifeboat_dock)
 "MC" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
 /turf/open/floor/prison,
@@ -4037,10 +5879,26 @@
 	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"MS" = (
+/obj/structure/disposalpipe/segment{
+	layer = 5.1;
+	name = "water pipe"
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "MT" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "4,7"
 	},
+/area/space/almayer/lifeboat_dock)
+"MX" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "MZ" = (
 /obj/structure/prop/almayer/cannon_cable_connector{
@@ -4067,6 +5925,11 @@
 	icon_state = "blue_plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"Nk" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin/uscm,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Nl" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	dir = 2;
@@ -4075,6 +5938,14 @@
 	access_modified = 1
 	},
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Nu" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/wirecutters/clippers,
+/obj/item/handcuffs/zip,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "Nv" = (
 /turf/closed/shuttle/twe_dropship{
@@ -4120,6 +5991,17 @@
 	},
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"NM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/space/almayer/lifeboat_dock)
 "NN" = (
 /obj/structure/prop/almayer/cannon_cable_connector{
 	pixel_y = 6
@@ -4137,6 +6019,11 @@
 	opacity = 0
 	},
 /area/space/almayer/lifeboat_dock)
+"NQ" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/taperecorder,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "NS" = (
 /turf/open/floor,
 /area/space/almayer/lifeboat_dock)
@@ -4148,6 +6035,15 @@
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "7,11"
 	},
+/area/space/almayer/lifeboat_dock)
+"Oa" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/obj/structure/sign/safety/rewire{
+	pixel_x = 32
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Oc" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -4165,6 +6061,13 @@
 /area/space/almayer/lifeboat_dock)
 "Og" = (
 /obj/structure/window/framed/strata,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Oi" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 8
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Oj" = (
@@ -4221,6 +6124,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/space/almayer/lifeboat_dock)
+"Ot" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
+	},
+/area/space/almayer/lifeboat_dock)
 "Oy" = (
 /obj/structure/surface/table/almayer,
 /obj/item/device/mass_spectrometer,
@@ -4243,10 +6153,39 @@
 	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"OC" = (
+/obj/structure/sign/safety/coffee{
+	pixel_y = 32
+	},
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
+	},
+/area/space/almayer/lifeboat_dock)
+"OD" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "Under Construction Shutters";
+	name = "\improper Construction Site"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/space/almayer/lifeboat_dock)
 "OE" = (
 /turf/open/floor/prison/trim/red{
 	dir = 3
 	},
+/area/space/almayer/lifeboat_dock)
+"OF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
+	},
+/area/space/almayer/lifeboat_dock)
+"OI" = (
+/turf/closed/wall/almayer,
 /area/space/almayer/lifeboat_dock)
 "OP" = (
 /obj/effect/decal/warning_stripes{
@@ -4270,6 +6209,14 @@
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"OZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/drip,
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 10
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Ph" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/hydro_floodlight,
@@ -4286,6 +6233,32 @@
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
+/area/space/almayer/lifeboat_dock)
+"Pp" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Pq" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/tool/pen,
+/obj/item/book/manual/marine_law{
+	pixel_x = 15;
+	pixel_y = 5
+	},
+/obj/item/book/manual/security_space_law{
+	pixel_x = 16;
+	pixel_y = 9
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Pu" = (
 /obj/structure/machinery/washing_machine,
@@ -4304,9 +6277,24 @@
 /obj/structure/filingcabinet,
 /turf/open/floor/carpet,
 /area/space/almayer/lifeboat_dock)
+"PB" = (
+/obj/structure/surface/rack,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "PG" = (
 /obj/structure/platform_decoration,
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"PI" = (
+/obj/structure/machinery/vending/cola{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "PL" = (
 /obj/structure/largecrate/random/barrel/white,
@@ -4325,6 +6313,50 @@
 	dir = 1;
 	icon_state = "blue_plate"
 	},
+/area/space/almayer/lifeboat_dock)
+"PQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"PR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/monitor{
+	density = 0;
+	pixel_y = 16
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"PT" = (
+/obj/structure/largecrate/random/secure,
+/obj/item/weapon/baseballbat/metal{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_y = 5
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"PU" = (
+/obj/structure/stairs{
+	dir = 8;
+	icon_state = "ramptop"
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "PX" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -4365,6 +6397,13 @@
 	icon_state = "upp9"
 	},
 /area/space/almayer/lifeboat_dock)
+"Qf" = (
+/obj/structure/machinery/computer/working_joe{
+	dir = 4
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Qj" = (
 /obj/structure/window/reinforced{
 	dir = 8;
@@ -4391,6 +6430,21 @@
 /obj/structure/machinery/floodlight/landing,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
+/area/space/almayer/lifeboat_dock)
+"Qp" = (
+/obj/item/paper/prison_station/interrogation_log{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/obj/structure/largecrate/random/barrel/green,
+/obj/item/limb/hand/l_hand{
+	pixel_x = -5;
+	pixel_y = 14
+	},
+/obj/effect/spawner/random/balaclavas,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "Qq" = (
 /obj/structure/surface/table/gamblingtable,
@@ -4430,6 +6484,11 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"QJ" = (
+/obj/item/reagent_container/food/drinks/cans/souto/blue,
+/obj/item/reagent_container/food/drinks/cans/souto/blue,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "QM" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass{
 	dir = 1;
@@ -4456,6 +6515,12 @@
 	},
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"QR" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "QV" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/reinforced{
 	dir = 2;
@@ -4467,6 +6532,17 @@
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
+/area/space/almayer/lifeboat_dock)
+"QX" = (
+/obj/structure/prop/dam/crane,
+/obj/effect/spawner/random/toolbox{
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Rd" = (
+/turf/closed/wall/strata_outpost_ribbed,
 /area/space/almayer/lifeboat_dock)
 "Re" = (
 /obj/structure/platform{
@@ -4524,6 +6600,24 @@
 /obj/structure/bed/sofa/vert/grey/bot,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"Rv" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Rz" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/screwdriver{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/item/stack/cable_coil{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "RC" = (
 /turf/closed/wall/strata_outpost{
 	name = "Bunker Wall";
@@ -4554,6 +6648,16 @@
 /turf/open/floor/prison{
 	dir = 8;
 	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
+"RL" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/closet/toolcloset,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "RP" = (
@@ -4588,12 +6692,27 @@
 	icon_state = "darkredfull2"
 	},
 /area/space/almayer/lifeboat_dock)
+"RY" = (
+/obj/structure/surface/table/almayer,
+/obj/effect/spawner/random/toolbox,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "RZ" = (
 /obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
 	dir = 1;
 	name = "\improper Brig"
 	},
 /turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Sb" = (
+/obj/structure/largecrate/supply/supplies/water,
+/obj/item/toy/deck{
+	pixel_y = 12
+	},
+/turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
 "Se" = (
 /obj/structure/largecrate/guns/merc{
@@ -4617,6 +6736,12 @@
 /area/space/almayer/lifeboat_dock)
 "Sv" = (
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Sw" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
 /area/space/almayer/lifeboat_dock)
 "Sz" = (
 /obj/structure/machinery/cm_vending/gear/antag_guns,
@@ -4688,11 +6813,67 @@
 	icon_state = "0,4"
 	},
 /area/space/almayer/lifeboat_dock)
+"ST" = (
+/obj/structure/surface/table/almayer,
+/obj/item/ashtray/bronze{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/ash,
+/obj/item/trash/cigbutt/ucigbutt{
+	pixel_x = 4;
+	pixel_y = 13
+	},
+/obj/item/trash/cigbutt/ucigbutt{
+	pixel_x = -7;
+	pixel_y = 14
+	},
+/obj/item/trash/cigbutt/ucigbutt{
+	pixel_x = -13;
+	pixel_y = 8
+	},
+/obj/item/trash/cigbutt/ucigbutt{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "SU" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
 /obj/structure/window/framed/prison,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"SX" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"Tb" = (
+/obj/structure/largecrate/random/case/double,
+/obj/structure/sign/safety/bulkhead_door{
+	pixel_x = 8;
+	pixel_y = -32
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Te" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/space/almayer/lifeboat_dock)
+"Ti" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Tj" = (
@@ -4706,6 +6887,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
 /area/space/almayer/lifeboat_dock)
+"Tq" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
+	},
+/area/space/almayer/lifeboat_dock)
 "Tr" = (
 /obj/structure/powerloader_wreckage,
 /turf/open/asphalt/cement,
@@ -4714,6 +6907,12 @@
 /turf/open/floor{
 	dir = 8;
 	icon_state = "warning"
+	},
+/area/space/almayer/lifeboat_dock)
+"Tx" = (
+/obj/structure/largecrate/random/barrel/yellow,
+/turf/open/floor/almayer{
+	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
 "TG" = (
@@ -4731,6 +6930,22 @@
 "TI" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"TO" = (
+/obj/structure/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer,
+/obj/item/circuitboard/machine/ghettosmes,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"TP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
 /area/space/almayer/lifeboat_dock)
 "TS" = (
 /obj/structure/barricade/metal{
@@ -4766,6 +6981,30 @@
 	icon_state = "upp5"
 	},
 /area/space/almayer/lifeboat_dock)
+"Ub" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 28
+	},
+/obj/structure/sign/safety/maint{
+	pixel_x = -17
+	},
+/obj/structure/surface/table/almayer,
+/obj/structure/transmitter/rotary{
+	name = "Telephone";
+	phone_category = "Almayer";
+	phone_id = "Auxiliary Support Office Second Line";
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/structure/transmitter/rotary{
+	name = "Telephone";
+	phone_category = "Almayer";
+	phone_id = "Auxiliary Support Office";
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Ud" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/paper{
@@ -4782,6 +7021,16 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"Uh" = (
+/obj/structure/reagent_dispensers/water_cooler/stacks{
+	density = 0;
+	pixel_x = -11;
+	pixel_y = -1
+	},
+/turf/open/floor/prison{
+	icon_state = "kitchen"
 	},
 /area/space/almayer/lifeboat_dock)
 "Ui" = (
@@ -4808,6 +7057,24 @@
 	icon_state = "platingdmg3"
 	},
 /area/space/almayer/lifeboat_dock)
+"Un" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
+"Uo" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/tool/crowbar,
+/obj/item/clothing/head/headset{
+	pixel_y = -7
+	},
+/obj/item/clothing/glasses/welding{
+	layer = 3.6;
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Ur" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -4818,12 +7085,25 @@
 /obj/structure/closet/secure_closet,
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"Uu" = (
+/obj/structure/surface/table/almayer,
+/obj/item/folder/blue,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Uw" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
+	},
+/area/space/almayer/lifeboat_dock)
+"Ux" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
 	},
 /area/space/almayer/lifeboat_dock)
 "UA" = (
@@ -4882,6 +7162,12 @@
 	icon_state = "6,2"
 	},
 /area/space/almayer/lifeboat_dock)
+"UT" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "UU" = (
 /obj/structure/surface/table/almayer,
 /obj/item/paper_bin/uscm,
@@ -4914,9 +7200,34 @@
 	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"Vf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "Vh" = (
 /obj/structure/largecrate,
 /turf/open/asphalt/cement,
+/area/space/almayer/lifeboat_dock)
+"Vj" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/toolbox/mechanical/green,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/space/almayer/lifeboat_dock)
+"Vl" = (
+/obj/structure/prop/server_equipment/yutani_server/broken{
+	density = 0;
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
 /area/space/almayer/lifeboat_dock)
 "Vn" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -4947,6 +7258,24 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/autoname,
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin3"
+	},
+/area/space/almayer/lifeboat_dock)
+"VC" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer,
+/obj/item/stack/sheet/mineral/uranium/small_stack{
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/obj/item/stack/sheet/mineral/uranium/small_stack{
+	pixel_y = 7
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "VI" = (
@@ -4997,6 +7326,22 @@
 	name = "Fulcrum"
 	},
 /area/space/almayer/lifeboat_dock)
+"VT" = (
+/obj/structure/bed/chair/office/dark,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"VW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/door_control{
+	id = "Under Construction Shutters";
+	name = "shutter-control";
+	pixel_x = -25
+	},
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "VY" = (
 /obj/structure/machinery/light{
 	unacidable = 1;
@@ -5011,6 +7356,17 @@
 /area/space/almayer/lifeboat_dock)
 "VZ" = (
 /obj/structure/bookcase,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Wc" = (
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Wi" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2;
+	name = "\improper Crew Chief's Room"
+	},
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Wm" = (
@@ -5043,6 +7399,14 @@
 	icon_state = "rasputin3"
 	},
 /area/space/almayer/lifeboat_dock)
+"Ws" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/prison{
+	icon_state = "darkbrownfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "Wy" = (
 /obj/item/storage/box/pillbottles,
 /obj/item/storage/box/pillbottles,
@@ -5070,10 +7434,33 @@
 	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
 	},
 /area/space/almayer/lifeboat_dock)
+"WC" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/sign/safety/ladder{
+	pixel_x = 32
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"WH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/space/almayer/lifeboat_dock)
 "WI" = (
 /obj/structure/pipes/vents/pump/on,
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
+	},
+/area/space/almayer/lifeboat_dock)
+"WK" = (
+/obj/structure/surface/table/almayer,
+/obj/effect/spawner/random/toolbox,
+/obj/item/storage/firstaid/o2,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/space/almayer/lifeboat_dock)
 "WL" = (
@@ -5102,6 +7489,24 @@
 "WQ" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/space/almayer/lifeboat_dock)
+"WR" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/extinguisher,
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"WT" = (
+/obj/structure/machinery/prop/almayer/computer{
+	dir = 4;
+	pixel_x = -17
+	},
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "WU" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -5115,9 +7520,31 @@
 	icon_state = "rasputin15"
 	},
 /area/space/almayer/lifeboat_dock)
+"Xa" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/cell_charger,
+/obj/item/cell/apc,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"Xc" = (
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/space/almayer/lifeboat_dock)
 "Xg" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/communications,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Xi" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Xj" = (
@@ -5142,6 +7569,19 @@
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin6"
 	},
+/area/space/almayer/lifeboat_dock)
+"Xp" = (
+/obj/structure/closet/crate{
+	dir = 5
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
+"Xq" = (
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "Xr" = (
 /turf/closed/wall/almayer/white,
@@ -5204,6 +7644,15 @@
 	name = "Shuttle Landing Lights"
 	},
 /area/space/almayer/lifeboat_dock)
+"XG" = (
+/obj/structure/surface/rack,
+/obj/structure/machinery/camera/autoname,
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space/almayer/lifeboat_dock)
 "XI" = (
 /obj/structure/powerloader_wreckage,
 /obj/effect/decal/cleanable/dirt,
@@ -5212,6 +7661,15 @@
 "XJ" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "7,1"
+	},
+/area/space/almayer/lifeboat_dock)
+"XK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/strata_outpost{
+	name = "Bunker Wall";
+	desc = "A wall construct made by some UPP engineer. With enough damage you can get through."
 	},
 /area/space/almayer/lifeboat_dock)
 "XN" = (
@@ -5235,6 +7693,32 @@
 	icon_state = "T6";
 	name = "Fulcrum";
 	opacity = 0
+	},
+/area/space/almayer/lifeboat_dock)
+"XR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/computer/telecomms/server{
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/item/clothing/mask/facehugger{
+	desc = "It has some sort of a tube at the end of its tail. What the hell is this thing?";
+	icon_state = "facehugger_impregnated";
+	layer = 3;
+	name = "????";
+	pixel_x = -2;
+	pixel_y = -6;
+	stat = 2
+	},
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
+	},
+/area/space/almayer/lifeboat_dock)
+"XT" = (
+/obj/structure/prop/server_equipment,
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_marked"
 	},
 /area/space/almayer/lifeboat_dock)
 "XU" = (
@@ -5282,6 +7766,13 @@
 	icon_state = "rasputin15"
 	},
 /area/space/almayer/lifeboat_dock)
+"Yh" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/structure/machinery/disposal,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Yl" = (
 /turf/open/floor{
 	icon_state = "warning"
@@ -5290,6 +7781,14 @@
 "Yn" = (
 /turf/closed/shuttle/twe_dropship{
 	icon_state = "8,5"
+	},
+/area/space/almayer/lifeboat_dock)
+"Yp" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
 "Ys" = (
@@ -5358,9 +7857,20 @@
 	icon_state = "plate"
 	},
 /area/space/almayer/lifeboat_dock)
+"YK" = (
+/obj/structure/cargo_container/lockmart/left{
+	layer = 3.1;
+	pixel_y = 5
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "YL" = (
 /obj/structure/window/framed/strata,
 /obj/structure/curtain/red,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"YM" = (
+/obj/structure/prop/dam/crane/cargo,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "YO" = (
@@ -5396,6 +7906,25 @@
 	icon_state = "2,2"
 	},
 /area/space/almayer/lifeboat_dock)
+"YZ" = (
+/obj/structure/largecrate/random/barrel/blue,
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Za" = (
+/obj/structure/machinery/computer/cameras/almayer_network,
+/obj/structure/surface/table/almayer,
+/obj/structure/sign/safety/terminal{
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"Zd" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Zk" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
 	dir = 1;
@@ -5428,11 +7957,25 @@
 /obj/structure/closet,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
+"Zs" = (
+/obj/structure/filingcabinet/security,
+/obj/structure/sign/safety/rewire{
+	pixel_x = -17
+	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
 "Zx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/shuttle/ert{
 	icon_state = "upp9"
 	},
+/area/space/almayer/lifeboat_dock)
+"Zz" = (
+/obj/structure/cargo_container/lockmart/mid{
+	layer = 3.1;
+	pixel_y = 5
+	},
+/turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "ZA" = (
 /obj/structure/machinery/light{
@@ -5455,12 +7998,29 @@
 	},
 /turf/open/floor/plating,
 /area/space/almayer/lifeboat_dock)
+"ZT" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2;
+	name = "\improper Crew Chief's Room"
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
+	},
+/area/space/almayer/lifeboat_dock)
 "ZU" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21";
 	layer = 3.1;
 	pixel_x = -8
 	},
+/turf/open/floor/prison,
+/area/space/almayer/lifeboat_dock)
+"ZV" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/prison,
 /area/space/almayer/lifeboat_dock)
 "ZW" = (
@@ -7805,13 +10365,13 @@ cz
 cz
 RC
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+zM
+zM
+zM
+zM
+zM
+zM
+zM
 EI
 EI
 EI
@@ -8067,13 +10627,13 @@ cz
 cz
 RC
 cz
-cz
+zM
 RC
 RC
 RC
 RC
 RC
-cz
+zM
 EI
 EI
 RC
@@ -8329,13 +10889,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+zM
+zM
+zM
+zM
+zM
 RC
-cz
+zM
 EI
 EI
 EI
@@ -8595,9 +11155,9 @@ cz
 cz
 cz
 cz
-cz
+zM
 RC
-cz
+zM
 EI
 EI
 EI
@@ -8857,9 +11417,9 @@ cz
 cz
 cz
 cz
-cz
+zM
 RC
-cz
+zM
 RC
 EI
 EI
@@ -9116,12 +11676,12 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+zM
+zM
+zM
+zM
 RC
-cz
+zM
 EI
 EI
 EI
@@ -9341,54 +11901,54 @@ cz
 cz
 cz
 cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+OI
+OI
+dG
+OI
+OI
+pJ
 RC
 RC
-RC
-RC
-RC
-RC
-RC
-RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-RC
-cz
+zM
 EI
 EI
 EI
 EI
-EI
+zM
 EI
 cz
 cz
@@ -9604,12 +12164,12 @@ cz
 cz
 cz
 RC
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+fH
+RC
+ov
+ov
+ov
 RC
 cz
 cz
@@ -9637,15 +12197,15 @@ cz
 cz
 cz
 cz
+OI
+Ub
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+hf
+lQ
 RC
-cz
+RC
+zM
 EI
 EI
 EI
@@ -9866,13 +12426,13 @@ cz
 cz
 cz
 RC
+Zs
+lL
+Ws
 cz
-cz
-cz
-cz
-cz
-cz
-RC
+wj
+Ks
+jH
 cz
 cz
 cz
@@ -9899,17 +12459,17 @@ cz
 cz
 cz
 cz
+OI
+uZ
 cz
-cz
-cz
-cz
-cz
+Pq
 cz
 cz
 RC
-cz
+RC
+zM
 EI
-EI
+zM
 EI
 EI
 EI
@@ -10129,7 +12689,17 @@ cz
 cz
 RC
 cz
+lL
+zM
 cz
+VT
+lD
+oy
+cz
+cz
+cz
+cz
+RC
 cz
 cz
 cz
@@ -10149,27 +12719,17 @@ cz
 cz
 cz
 cz
+cz
+cz
+cz
+cz
+OY
+ZV
+mp
+po
 RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
 RC
-cz
+zM
 EI
 RC
 EI
@@ -10390,13 +12950,13 @@ cz
 cz
 cz
 RC
+fP
+dZ
+ua
+mA
 cz
-cz
-cz
-cz
-cz
-cz
-cz
+NQ
+jH
 cz
 cz
 cz
@@ -10425,20 +12985,20 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+Oi
+Im
+Gd
+BD
+An
 RC
-cz
+zM
 RC
 EI
 EI
 EI
 EI
 EI
-cz
+zM
 cz
 cz
 cz
@@ -10652,13 +13212,13 @@ cz
 cz
 cz
 RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+kZ
+JA
+zM
+zM
+wN
+kM
+RC
 cz
 cz
 cz
@@ -10685,22 +13245,22 @@ cz
 cz
 cz
 cz
+OI
+Oa
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+mL
 RC
-cz
+RC
+zM
 RC
 EI
 EI
 EI
 EI
 RC
-cz
+zM
 cz
 cz
 cz
@@ -10914,13 +13474,13 @@ cz
 cz
 cz
 RC
+LL
+lL
+zM
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+xL
+oy
 cz
 cz
 cz
@@ -10947,15 +13507,15 @@ cz
 zM
 zM
 zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
+OI
+OI
+OI
 RC
-cz
+RC
+RC
+RC
+RC
+zM
 RC
 bk
 EI
@@ -11176,13 +13736,13 @@ cz
 cz
 cz
 RC
-cz
-cz
-cz
-cz
-cz
-cz
-RC
+to
+BD
+ua
+qG
+VT
+lD
+jH
 cz
 cz
 cz
@@ -11438,13 +13998,13 @@ cz
 cz
 cz
 RC
+Yh
 cz
+eD
 cz
-cz
-cz
-cz
-cz
-RC
+Ks
+EC
+jH
 cz
 cz
 cz
@@ -12520,14 +15080,14 @@ bk
 bk
 RC
 RC
-RC
+ys
+gJ
+uJ
+cN
+ij
 cz
-cz
-cz
-cz
-cz
-cz
-cz
+YK
+LF
 RC
 RC
 RC
@@ -12783,13 +15343,13 @@ bk
 RC
 cz
 cz
+nD
+YZ
+YZ
+mX
 cz
-cz
-cz
-cz
-cz
-cz
-cz
+Zz
+qv
 cz
 cz
 cz
@@ -13043,15 +15603,15 @@ bk
 bk
 bk
 RC
+YK
+LF
 cz
 cz
 cz
+Kb
 cz
-cz
-cz
-cz
-cz
-cz
+cB
+gX
 cz
 cz
 cz
@@ -13305,8 +15865,8 @@ bk
 bk
 bk
 RC
-zM
-cz
+Zz
+qv
 cz
 cz
 cz
@@ -13567,8 +16127,8 @@ bk
 bk
 bk
 RC
-zM
-cz
+cB
+gX
 cz
 cz
 cz
@@ -13829,8 +16389,8 @@ bk
 bk
 bk
 RC
-zM
-cz
+YK
+LF
 cz
 cz
 cz
@@ -14091,8 +16651,8 @@ bk
 bk
 bk
 RC
-zM
-cz
+Zz
+qv
 cz
 cz
 cz
@@ -14353,8 +16913,8 @@ bk
 bk
 bk
 RC
-zM
-cz
+cB
+gX
 cz
 cz
 cz
@@ -15202,7 +17762,7 @@ EI
 pQ
 pQ
 bk
-kh
+EI
 bk
 bk
 bk
@@ -15932,13 +18492,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
 RC
-RC
-RC
+nc
+Rz
+Sv
+Bh
+lb
+Tb
 RC
 cz
 cz
@@ -16194,13 +18754,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+uW
+Sv
+Sv
+Sv
+Sv
+Sv
 RC
 RC
 RC
@@ -16456,13 +19016,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+iw
+Sv
+Sv
+Sv
+Sv
+oX
 RC
 EI
 EI
@@ -16718,13 +19278,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+RC
+UT
+Sv
+eK
+fS
+cK
+Jr
 RC
 EI
 EI
@@ -16980,13 +19540,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+RC
+GX
+Sv
+Sv
+Sv
+Sv
+Sv
 RC
 EI
 EI
@@ -17242,13 +19802,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+RC
+ST
+oD
+gz
+Sv
+Sv
+Sv
 RC
 EI
 EI
@@ -17504,13 +20064,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+RC
+Se
+Sv
+Sv
+Sv
+Sv
+wl
 RC
 EI
 EI
@@ -17766,13 +20326,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+RC
+RC
+Sv
+vx
+yK
+Sv
+Jr
 RC
 EI
 EI
@@ -18028,13 +20588,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+OD
+VW
+BW
+oi
+qt
+Sv
+vk
 RC
 EI
 EI
@@ -18290,13 +20850,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+AI
+CR
+qo
+Sv
+Sv
+Sv
+MS
 RC
 EI
 EI
@@ -18552,13 +21112,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-zM
+OD
+CR
+qo
+FW
+Sv
+xg
+oX
 RC
 EI
 EI
@@ -18814,13 +21374,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+RC
+Sv
+Sv
+Sv
+Sb
+Jr
 RC
 EI
 EI
@@ -19076,13 +21636,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+jL
+hD
+Sv
+Sv
+Sv
+Rv
+Sv
 RC
 EI
 EI
@@ -19338,14 +21898,14 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
 RC
-EI
+xh
+Sv
+Sv
+pY
+Sv
+AA
+RC
 EI
 EI
 EI
@@ -19600,13 +22160,13 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-RC
+EI
+EI
+EI
+EI
+EI
+EI
+EI
 EI
 EI
 EI
@@ -19708,9 +22268,9 @@ EI
 EI
 EI
 bk
-bk
-bk
-bk
+EI
+EI
+EI
 bk
 bk
 bk
@@ -19862,13 +22422,13 @@ EI
 cz
 cz
 zM
-zM
-zM
-zM
-zM
-zM
-cz
-RC
+EI
+EI
+EI
+EI
+EI
+EI
+EI
 EI
 EI
 EI
@@ -19970,9 +22530,9 @@ EI
 bk
 bk
 bk
-bk
-bk
-bk
+EI
+EI
+EI
 bk
 bk
 bk
@@ -20124,12 +22684,12 @@ EI
 RC
 RC
 RC
-RC
-RC
-RC
-RC
-RC
-RC
+EI
+EI
+EI
+EI
+EI
+EI
 EI
 EI
 EI
@@ -20229,16 +22789,16 @@ EI
 EI
 EI
 EI
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+AW
+Ic
+RC
+bf
+bf
+bf
+bf
+RC
+NM
+sW
 bk
 bk
 bk
@@ -20491,16 +23051,16 @@ EI
 EI
 EI
 bk
-bk
-bk
-bk
-EI
-EI
-bk
-bk
-bk
-bk
-bk
+Ic
+RC
+RC
+VC
+DE
+ax
+TO
+RC
+RC
+NM
 bk
 bk
 bk
@@ -20753,16 +23313,16 @@ EI
 EI
 EI
 bk
-bk
-bk
-EI
-EI
-EI
-EI
-EI
-bk
-bk
-bk
+RC
+RC
+PR
+mT
+cz
+cz
+HI
+vd
+RC
+RC
 bk
 bk
 bk
@@ -21015,16 +23575,16 @@ EI
 EI
 EI
 EI
-bk
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-bk
+RC
+wp
+mT
+cz
+XT
+fU
+cz
+ld
+Bc
+RC
 bk
 bk
 bk
@@ -21277,16 +23837,16 @@ EI
 EI
 EI
 EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
+RC
+Vl
+mT
+cz
+cz
+uK
+cz
+BR
+nT
+RC
 bk
 bk
 bk
@@ -21374,14 +23934,14 @@ td
 EI
 EI
 EI
-td
-td
-td
-td
-td
-td
-td
-td
+RC
+RC
+RC
+RC
+RC
+RC
+RC
+RC
 td
 td
 td
@@ -21539,16 +24099,16 @@ EI
 EI
 EI
 EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
+RC
+mS
+cz
+mT
+TP
+aS
+cz
+ld
+iH
+RC
 EI
 EI
 bk
@@ -21636,14 +24196,14 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
+RC
+eR
+KL
+rC
+hm
+Ac
+kE
+RC
 td
 td
 td
@@ -21732,9 +24292,9 @@ bk
 bk
 JH
 cz
+KI
+KI
 cz
-vQ
-vQ
 vQ
 RC
 cz
@@ -21801,16 +24361,16 @@ EI
 EI
 EI
 EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
+Ey
+AM
+mT
+aS
+zt
+fp
+XR
+OZ
+LK
+Ge
 EI
 EI
 EI
@@ -21898,14 +24458,14 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
+RC
+Bf
+gK
+cA
+gK
+gK
+zd
+RC
 td
 td
 td
@@ -21994,8 +24554,8 @@ bk
 bk
 JH
 cz
-cz
-cz
+DS
+jy
 cz
 cz
 RC
@@ -22063,16 +24623,16 @@ EI
 EI
 EI
 EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
+Et
+vQ
+cz
+aS
+wP
+wP
+aS
+cz
+vQ
+Et
 EI
 EI
 EI
@@ -22161,12 +24721,12 @@ td
 td
 td
 RC
-RC
-RC
-RC
-RC
-RC
-RC
+hm
+gK
+gF
+gK
+gK
+Uh
 RC
 RC
 RC
@@ -22255,17 +24815,12 @@ bk
 bk
 bk
 JH
-cz
-cz
-cz
-cz
+bO
+iI
+ef
+yX
 cz
 RC
-cz
-cz
-cz
-cz
-cz
 cz
 cz
 cz
@@ -22273,6 +24828,11 @@ cz
 cz
 cz
 RC
+RC
+RC
+RC
+RC
+RC
 EI
 EI
 EI
@@ -22325,16 +24885,16 @@ EI
 EI
 EI
 EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
+RC
+ar
+cz
+cz
+aS
+TP
+mT
+mT
+BE
+RC
 EI
 EI
 EI
@@ -22423,18 +24983,18 @@ td
 td
 td
 RC
-RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+PI
+gK
+xu
+od
+dQ
+co
+gK
+gK
+gK
+gK
+gK
+gK
 cz
 cz
 cz
@@ -22518,8 +25078,8 @@ bk
 bk
 JH
 cz
-cz
-cz
+aN
+aN
 cz
 cz
 RC
@@ -22529,11 +25089,11 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+RC
+RL
+kr
+dY
+WR
 RC
 EI
 EI
@@ -22587,16 +25147,16 @@ EI
 EI
 EI
 EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
+RC
+kB
+mT
+cz
+cz
+gA
+mT
+cz
+wm
+RC
 EI
 EI
 EI
@@ -22685,19 +25245,19 @@ td
 td
 td
 RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+vM
+gK
+ke
+gK
+Fk
+gK
+gK
+gK
+gK
+gK
+gK
+gK
+RC
 cz
 cz
 cz
@@ -22779,7 +25339,7 @@ bk
 bk
 bk
 JH
-vQ
+cz
 cz
 cz
 cz
@@ -22794,8 +25354,8 @@ cz
 RC
 cz
 cz
-cz
-cz
+km
+jQ
 RC
 EI
 EI
@@ -22853,21 +25413,21 @@ RC
 RC
 RC
 RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
-RC
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
 RC
 RC
 RC
@@ -22947,19 +25507,19 @@ td
 td
 td
 RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+OC
+RC
+Tq
+Ux
+Ux
+Ux
+gK
+gK
+gK
+gK
+gK
+gK
+RC
 cz
 cz
 cz
@@ -23041,16 +25601,9 @@ bk
 bk
 bk
 JH
-vQ
 cz
-cz
-cz
-cz
-RC
-cz
-cz
-cz
-cz
+KI
+KI
 cz
 cz
 RC
@@ -23058,6 +25611,13 @@ cz
 cz
 cz
 cz
+cz
+cz
+Eu
+cz
+cz
+cz
+WK
 RC
 EI
 EI
@@ -23108,35 +25668,35 @@ EI
 RC
 RC
 cz
+Rd
+xT
+xT
+xT
+xT
+xT
+Rd
+KB
 cz
 cz
 cz
 cz
+PU
+PU
+PU
+PU
+PU
 cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+KB
+Rd
+xT
+xT
+xT
+xT
+xT
+Rd
 cz
 RC
 RC
@@ -23209,22 +25769,22 @@ td
 td
 td
 RC
+RC
+RC
+RC
+RC
+RC
+RC
 Xj
 Xj
 Xj
 Xj
 Xj
 Xj
-Xj
-Xj
-Xj
-Xj
-Xj
-Xj
+RC
 cz
 cz
-cz
-cz
+HY
 RC
 cz
 cz
@@ -23303,7 +25863,9 @@ bk
 bk
 bk
 JH
-vQ
+cz
+JB
+cf
 cz
 cz
 cz
@@ -23313,92 +25875,90 @@ cz
 cz
 cz
 cz
+oM
 cz
 cz
+km
+jQ
+RC
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+bk
+bk
+bk
+bk
+bk
+bk
+bk
+bk
+bk
+bk
+bk
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+EI
+RC
 RC
 cz
 cz
+qk
+vm
+Vf
+Vf
+Ib
+yf
+qk
+KB
 cz
 cz
+cz
+cz
+PU
+PU
+PU
+PU
+PU
+cz
+cz
+cz
+cz
+KB
+qk
+vm
+Vf
+Vf
+Ib
+yf
 RC
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-EI
-RC
-RC
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
 cz
 cz
 cz
@@ -23486,7 +26046,7 @@ cz
 cz
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -23565,23 +26125,23 @@ bk
 bk
 bk
 JH
+bO
+iI
+Xj
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+RC
+hl
 vQ
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-RC
-cz
-cz
-cz
-cz
+ud
+WK
 RC
 RC
 RC
@@ -23630,37 +26190,37 @@ RC
 RC
 cz
 cz
+mT
+cz
+qk
+xp
+aS
+aS
+kw
+zq
+qk
+KB
 cz
 cz
 cz
+KB
+PU
+PU
+PU
+PU
+PU
+KB
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+KB
+qk
+xp
+aS
+aS
+kw
+zq
+RC
 cz
 cz
 cz
@@ -23748,7 +26308,7 @@ cz
 cz
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -23827,12 +26387,11 @@ bk
 bk
 bk
 JH
-vQ
 cz
+aN
+aN
 cz
-cz
-cz
-cz
+Wi
 cz
 cz
 cz
@@ -23846,6 +26405,7 @@ RC
 RC
 RC
 RC
+RC
 td
 td
 td
@@ -23891,38 +26451,38 @@ td
 td
 RC
 cz
+mT
+mT
+cz
+qk
+PQ
+dA
+dA
+hs
+xB
+qk
+KB
+cz
+cz
+cz
+KB
 cz
 cz
 cz
 cz
 cz
+KB
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+KB
+qk
+PQ
+dA
+dA
+hs
+xB
+RC
 cz
 cz
 cz
@@ -24010,7 +26570,7 @@ Ks
 lM
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -24089,7 +26649,6 @@ bk
 bk
 bk
 JH
-vQ
 cz
 cz
 cz
@@ -24105,8 +26664,9 @@ cz
 cz
 cz
 cz
+vY
 cz
-vQ
+yT
 RC
 td
 td
@@ -24153,41 +26713,41 @@ td
 td
 RC
 cz
+mT
+RC
+RC
+Rd
+Rd
+cz
+cz
+cz
+Rd
+Rd
+KB
+cz
+cz
+cz
+KB
 cz
 cz
 cz
 cz
 cz
+KB
+mT
+cz
+cz
+KB
+RC
+RC
+RC
 cz
 cz
 cz
+RC
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
 cz
 cz
 RC
@@ -24415,6 +26975,8 @@ td
 td
 RC
 cz
+Me
+Ot
 cz
 cz
 cz
@@ -24423,6 +26985,21 @@ cz
 cz
 cz
 cz
+KB
+cz
+cz
+cz
+KB
+zr
+zr
+zr
+zr
+Sw
+WH
+cz
+cz
+cz
+KB
 cz
 cz
 cz
@@ -24431,25 +27008,8 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+RC
 cz
 cz
 RC
@@ -24613,11 +27173,11 @@ bk
 bk
 bk
 JH
-cz
-cz
-cz
-cz
-cz
+RC
+RC
+RC
+RC
+RC
 cz
 cz
 cz
@@ -24677,27 +27237,8 @@ td
 td
 RC
 cz
-cz
-cz
-cz
-cz
-cz
-td
-td
-td
-td
-td
-td
-td
-td
-td
-cz
-td
-td
-td
-td
-td
-td
+mT
+Ot
 cz
 cz
 cz
@@ -24706,12 +27247,31 @@ cz
 cz
 cz
 cz
+KB
+cz
+cz
+cz
+KB
+zr
+Sw
+zr
+Sw
+Sw
+KB
+cz
+cz
+cz
+KB
 cz
 cz
 cz
 cz
 cz
+mT
+mT
 cz
+mT
+Ot
 cz
 cz
 RC
@@ -24875,11 +27435,11 @@ bk
 bk
 bk
 JH
-cz
-cz
-cz
-cz
-cz
+JH
+FB
+Pp
+Uo
+RC
 cz
 cz
 cz
@@ -24939,41 +27499,41 @@ td
 td
 RC
 cz
+mT
+Ot
+mT
 cz
+Me
+mT
 cz
+mT
 cz
+mT
+WH
+Me
+mT
 cz
+WH
+zr
+Sw
+zr
+zr
+zr
+KB
 cz
-td
-td
+mT
 cz
+KB
+mT
 cz
+mT
+mT
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-td
-td
-td
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+Me
+mT
+mT
+RC
 cz
 cz
 RC
@@ -25137,6 +27697,11 @@ bk
 bk
 bk
 JH
+JH
+FN
+cz
+FN
+RC
 cz
 cz
 cz
@@ -25146,15 +27711,10 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-vQ
+RC
+RC
+RC
+RC
 RC
 td
 td
@@ -25202,40 +27762,40 @@ td
 RC
 cz
 cz
+Ot
+mT
 cz
 cz
 cz
 cz
+Me
 cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-cz
-td
+mT
+KB
+mT
+mT
+Me
+KB
+zr
+zr
+zr
+zr
+zr
+KB
 cz
 cz
 cz
+KB
+RC
+cz
+mT
+RC
+RC
+RC
+mT
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Ot
 cz
 cz
 RC
@@ -25399,13 +27959,11 @@ bk
 bk
 bk
 JH
-HX
+JH
+rn
 cz
-LD
-cz
-cz
-cz
-cz
+rn
+RC
 cz
 cz
 cz
@@ -25415,8 +27973,10 @@ cz
 cz
 cz
 cz
-cz
-vQ
+RC
+RC
+RC
+RC
 RC
 td
 td
@@ -25464,40 +28024,40 @@ td
 RC
 cz
 cz
+Ot
+mT
 cz
 cz
+RC
+mT
+Me
+mT
+mT
+tT
+ja
+KB
+KB
+WH
+Ln
+Hl
+Ln
+Ln
+Hl
+KB
+KB
+KB
+KB
+KB
+RC
+cz
+mT
 cz
 cz
+mT
+mT
+mT
 cz
-cz
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+OF
 cz
 cz
 RC
@@ -25661,11 +28221,11 @@ bk
 bk
 bk
 JH
+JH
 cz
-cz
-cz
-cz
-cz
+HS
+vQ
+ZT
 cz
 cz
 cz
@@ -25726,42 +28286,42 @@ td
 RC
 cz
 cz
+Ot
+cz
+mT
+cz
+OF
+mT
+mT
+mT
+cz
+cz
+mT
+cz
+cz
+mT
+zr
+zr
+zr
+zr
+zr
 cz
 cz
 cz
 cz
 cz
 cz
+mT
+mT
 cz
 cz
-td
+mT
+mT
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+Me
+mT
 RC
 EI
 EI
@@ -25844,7 +28404,7 @@ Ks
 lM
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -25988,43 +28548,43 @@ td
 RC
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-td
-td
-cz
-cz
-cz
-td
-td
-td
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Ot
 cz
 cz
 cz
 RC
+cz
+mT
+Me
+cz
+mT
+cz
+mT
+Me
+Me
+zr
+Sw
+zr
+Sw
+Sw
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+mT
+cz
+cz
+mT
+RC
+Me
+mT
+Ot
 EI
 EI
 EI
@@ -26106,7 +28666,7 @@ Ks
 lM
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -26186,8 +28746,8 @@ bk
 bk
 JH
 vQ
-vQ
-vQ
+SX
+SX
 vQ
 RC
 cz
@@ -26200,9 +28760,9 @@ cz
 cz
 cz
 cz
+vY
 cz
-cz
-vQ
+yT
 RC
 td
 td
@@ -26250,41 +28810,41 @@ td
 RC
 cz
 cz
+RC
+cz
+mT
+cz
+RC
+mT
+wA
+cz
+wA
+cz
+RC
+mT
+mT
+mT
+Sw
+Sw
+Sw
+Sw
+tK
+mT
 cz
 cz
 cz
 cz
+RC
 cz
 cz
 cz
 cz
+Me
 cz
 cz
+mT
 cz
-cz
-td
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Me
 cz
 RC
 EI
@@ -26368,7 +28928,7 @@ Ks
 lM
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -26447,10 +29007,10 @@ bk
 bk
 bk
 JH
-vQ
+Xp
 cz
 cz
-vQ
+Xp
 RC
 cz
 cz
@@ -26512,42 +29072,42 @@ td
 RC
 cz
 cz
+Ot
+cz
+mT
+cz
+Ot
+cz
+Hx
+Gl
+Gl
+Gd
+RC
+cz
+mT
+mT
+zr
+Sw
+Sw
+zr
+zr
+cz
+mT
+mT
+cz
+cz
+RC
 cz
 cz
 cz
 cz
+mT
+mT
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
 RC
 EI
 EI
@@ -26630,7 +29190,7 @@ Ks
 lM
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -26709,10 +29269,10 @@ bk
 bk
 bk
 JH
-vQ
+CZ
 cz
 cz
-vQ
+CZ
 RC
 cz
 cz
@@ -26774,41 +29334,41 @@ zr
 RC
 zr
 cz
+RC
+cz
+cz
+mT
+RC
+Ve
+vJ
+vJ
+Vj
+mT
+Ot
+mT
+mT
+mT
+Sw
+Sw
+zr
+zr
+zr
+cz
+cz
+Me
+cz
+mT
 cz
 cz
 cz
 cz
 cz
+Me
 cz
+mT
+mT
 cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 RC
 EI
@@ -26892,7 +29452,7 @@ Ks
 lM
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -26971,10 +29531,10 @@ bk
 bk
 bk
 JH
-vQ
+CZ
 cz
 cz
-vQ
+CZ
 RC
 cz
 cz
@@ -27036,40 +29596,40 @@ zr
 RC
 zr
 cz
+RC
+mT
+Me
+cz
+RC
+cz
+Ve
+mT
+Xi
+si
+RC
+cz
+cz
+cz
+mT
+mT
+mT
+mT
+mT
+Me
+mT
+cz
+mT
 cz
 cz
 cz
 cz
 cz
 cz
-cz
-td
-cz
+Me
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 RC
@@ -27154,7 +29714,7 @@ cz
 cz
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -27298,39 +29858,39 @@ zr
 gU
 zr
 cz
+Ot
+cz
+mT
+cz
+RC
+cz
+Ti
+cz
+wA
+cz
+RC
 cz
 cz
 cz
 cz
+Me
+Me
+mT
+Me
 cz
 cz
 cz
-td
+mT
+mT
 cz
 cz
 cz
+mT
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
+mT
+mT
 cz
 cz
 cz
@@ -27417,7 +29977,7 @@ cz
 cz
 cz
 cz
-cz
+Ga
 cz
 cz
 cz
@@ -27560,37 +30120,37 @@ zr
 td
 zr
 cz
+RC
+cz
+cz
+mT
+Ot
+mT
+Hx
+Gl
+vJ
+Gd
+RC
+cz
+cz
+Ot
 cz
 cz
 cz
+Me
+cz
+mT
+RC
+XG
+Sv
+JY
 cz
 cz
 cz
+mT
 cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
 cz
 cz
 cz
@@ -27733,7 +30293,7 @@ cz
 tF
 cz
 cz
-tF
+cz
 cz
 cz
 vc
@@ -27757,10 +30317,10 @@ bk
 bk
 bk
 JH
-vQ
+Xp
 cz
 cz
-vQ
+Xp
 RC
 cz
 cz
@@ -27772,9 +30332,9 @@ cz
 cz
 cz
 cz
+qA
 cz
-cz
-cz
+YM
 RC
 RC
 td
@@ -27822,42 +30382,42 @@ zr
 RC
 zr
 cz
+RC
+mT
+cz
+Me
+Ot
+Ve
+Gl
+Gl
+np
+cz
+RC
+cz
+cz
+Ot
 cz
 cz
 cz
+Me
+mT
 cz
+RC
+Hy
+nL
+Sv
 cz
+mT
+mT
+mT
+Ot
+mT
 cz
-cz
-cz
-td
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+RC
+Ot
+RC
+RC
 RC
 EI
 EI
@@ -27941,7 +30501,7 @@ lM
 cz
 cz
 cz
-cz
+Og
 cz
 cz
 cz
@@ -28019,10 +30579,10 @@ bk
 bk
 bk
 JH
-vQ
+CZ
 cz
 cz
-vQ
+CZ
 RC
 cz
 cz
@@ -28034,7 +30594,7 @@ cz
 cz
 cz
 RC
-cz
+vS
 cz
 cz
 RC
@@ -28084,40 +30644,40 @@ zr
 RC
 zr
 cz
+RC
+mT
+cz
+mT
+RC
+cz
+EN
+mT
+Xi
+si
+RC
+cz
+cz
+RC
+cz
+cz
+mT
+mT
+cz
+cz
+RC
+Sv
+QX
+Un
+cz
+cz
+cz
+mT
+RC
 cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-td
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 RC
@@ -28203,7 +30763,7 @@ lM
 cz
 cz
 cz
-cz
+Ga
 cz
 cz
 cz
@@ -28281,10 +30841,10 @@ bk
 bk
 bk
 JH
-vQ
-vQ
-vQ
-vQ
+CZ
+SX
+SX
+CZ
 RC
 cz
 cz
@@ -28346,41 +30906,41 @@ td
 RC
 cz
 cz
+Ot
 cz
 cz
 cz
+RC
+Ot
+RC
+RC
+XK
+Ot
+RC
+RC
+RC
+RC
+cz
+mT
+mT
 cz
 cz
 cz
+RC
+Sv
+Sv
+iM
+cz
+fT
+cz
+cz
+Ot
 cz
 cz
 cz
-td
+mT
 cz
-cz
-cz
-cz
-cz
-cz
-td
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 RC
 EI
@@ -28516,13 +31076,13 @@ cz
 xi
 cz
 cz
+cz
+cz
+cz
 tF
 cz
 cz
-tF
 cz
-cz
-vc
 cz
 cz
 cz
@@ -28609,42 +31169,42 @@ RC
 cz
 cz
 cz
+mT
 cz
 cz
+mT
+Me
+mT
+Me
 cz
+mT
+CO
 cz
+Me
+Me
+mT
 cz
-cz
-cz
-cz
-cz
-td
-cz
-cz
-cz
-td
-td
-cz
-cz
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 cz
 RC
+fN
+ga
+ZA
+cz
+cz
+cz
+cz
+Ot
+mT
+mT
+mT
+mT
+cz
+mT
+mT
+Ot
 EI
 EI
 EI
@@ -28875,34 +31435,34 @@ cz
 cz
 cz
 cz
+mT
+mT
+cz
+mT
+mT
+cz
+mT
+mT
+cz
+mT
 cz
 cz
 cz
 cz
 cz
-cz
-td
-td
-td
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+RC
+RC
+RC
+RC
+RC
+RC
+RC
+RC
+RC
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 cz
@@ -28988,7 +31548,7 @@ cz
 cz
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -29037,7 +31597,7 @@ cz
 cz
 cz
 cz
-xi
+cz
 cz
 cz
 tF
@@ -29142,29 +31702,29 @@ cz
 cz
 cz
 cz
+mT
+CO
+cz
+mT
+mT
+mT
+cz
+mT
+cz
+Me
+cz
+cz
+cz
+cz
+cz
+mT
 cz
 cz
 cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
 cz
 cz
 cz
@@ -29250,7 +31810,7 @@ cz
 cz
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -29394,6 +31954,29 @@ td
 RC
 cz
 cz
+mT
+mT
+mT
+cz
+cz
+cz
+mT
+cz
+mT
+cz
+cz
+mT
+mT
+mT
+mT
+cz
+cz
+cz
+mT
+mT
+cz
+cz
+mT
 cz
 cz
 cz
@@ -29402,31 +31985,8 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
 cz
 cz
 cz
@@ -29512,7 +32072,7 @@ cz
 cz
 cz
 cz
-cz
+HY
 RC
 cz
 cz
@@ -29659,6 +32219,9 @@ cz
 cz
 cz
 cz
+Me
+mT
+mT
 cz
 cz
 cz
@@ -29668,26 +32231,23 @@ cz
 cz
 cz
 cz
+mT
+cz
+mT
 cz
 cz
 cz
 cz
 cz
+mT
+Me
+mT
 cz
+mT
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+mT
+mT
+mT
 cz
 cz
 cz
@@ -29763,10 +32323,10 @@ cz
 RC
 RC
 cz
+QI
+Og
 cz
-cz
-cz
-cz
+QI
 RC
 RC
 cz
@@ -33753,13 +36313,13 @@ cz
 cz
 cz
 cz
-xi
 cz
-cz
-tF
 cz
 cz
 tF
+cz
+cz
+cz
 cz
 cz
 vc
@@ -34018,13 +36578,13 @@ cz
 xi
 cz
 cz
+cz
+cz
+cz
 tF
 cz
 cz
-tF
 cz
-cz
-vc
 cz
 cz
 cz
@@ -34545,7 +37105,7 @@ cz
 tF
 cz
 cz
-tF
+cz
 cz
 cz
 vc
@@ -34804,7 +37364,7 @@ Qa
 Qa
 cz
 cz
-tF
+cz
 cz
 cz
 tF
@@ -35072,7 +37632,7 @@ cz
 tF
 cz
 cz
-vc
+cz
 cz
 cz
 cz
@@ -35725,8 +38285,8 @@ cz
 cz
 cz
 Qa
-td
-td
+vj
+Qa
 Qa
 Qa
 Qa
@@ -35987,11 +38547,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+cz
+vj
+vG
+vj
+cz
 Qa
 dm
 fd
@@ -36249,11 +38809,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+cz
+vj
+vG
+vj
+cz
 Qa
 dT
 VR
@@ -36511,11 +39071,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+cz
+cz
+cz
+cz
+cz
 Qa
 wf
 dq
@@ -36773,11 +39333,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+vj
+tg
+rS
+fI
+zr
 Qa
 Qa
 Qa
@@ -37035,11 +39595,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+Qa
+Qa
+Qa
+Qa
+pU
 Qa
 eA
 CW
@@ -37159,19 +39719,19 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
+Qa
 cz
 cz
 cz
@@ -37297,11 +39857,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+Ck
+cz
+Ck
+cz
+cz
 Qa
 ul
 CW
@@ -37421,19 +39981,19 @@ cz
 cz
 cz
 cz
+Qa
+ew
+HX
+ac
 cz
+WT
+RY
+hA
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Kt
+HR
+FQ
+Qa
 cz
 cz
 cz
@@ -37559,11 +40119,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
+Ck
+cz
+Ck
+cz
+cz
 Qa
 sa
 CW
@@ -37683,6 +40243,7 @@ cz
 cz
 cz
 cz
+Qa
 cz
 cz
 cz
@@ -37694,8 +40255,7 @@ cz
 cz
 cz
 cz
-cz
-cz
+Qa
 cz
 cz
 cz
@@ -37783,7 +40343,7 @@ cz
 cz
 cz
 cz
-cz
+bo
 cz
 cz
 cz
@@ -37821,12 +40381,12 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
+Ck
+cz
+Ck
+cz
+cz
+Qa
 Qa
 Qa
 Qa
@@ -37945,19 +40505,19 @@ hQ
 hQ
 hQ
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+Mv
+mp
+mp
+mp
+po
+vb
+LY
+Uu
+Zd
+mp
+mp
+mp
+jl
 cz
 cz
 zr
@@ -38083,13 +40643,13 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
-td
+Ck
+cz
+Ck
+cz
+cz
+QR
+zr
 td
 td
 td
@@ -38207,19 +40767,19 @@ bk
 bk
 hQ
 zr
+Qa
+Za
+by
 cz
+lL
+Nk
+uU
+IL
+lL
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+VT
+qd
+Qa
 cz
 cz
 zr
@@ -38345,13 +40905,13 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
-td
+cz
+cz
+cz
+cz
+cz
+zr
+zr
 td
 td
 td
@@ -38469,16 +41029,16 @@ bk
 bk
 hQ
 zr
+Qa
+gH
+by
+Xq
+Wc
 cz
+lL
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+dZ
+mA
 cz
 cz
 cz
@@ -38572,9 +41132,9 @@ lM
 cz
 cz
 cz
-cz
-cz
-cz
+fg
+Co
+Qf
 cz
 cz
 cz
@@ -38608,14 +41168,14 @@ cz
 cz
 Qa
 Qa
-td
-td
-td
-td
-td
-td
-td
-td
+cz
+cz
+cz
+cz
+Qa
+Qa
+Qa
+Qa
 td
 td
 td
@@ -38731,18 +41291,18 @@ bk
 bk
 hQ
 zr
+Qa
+Ls
+Dv
+ht
+WC
+mc
+Ia
+mp
+kc
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
+VT
+qd
 cz
 cz
 cz
@@ -38833,11 +41393,11 @@ cz
 lM
 cz
 cz
+mx
 cz
+is
 cz
-cz
-cz
-cz
+ao
 cz
 cz
 cz
@@ -38870,11 +41430,11 @@ cz
 cz
 Qa
 Qa
-td
-td
-td
-td
-td
+cz
+cz
+cz
+cz
+Qa
 td
 td
 td
@@ -38995,13 +41555,13 @@ hQ
 zr
 cz
 cz
+Qa
+Qa
+Qa
 cz
 cz
 cz
-cz
-cz
-cz
-cz
+Qa
 cz
 cz
 cz
@@ -39095,11 +41655,11 @@ lM
 cz
 cz
 cz
+Xj
 cz
 cz
 cz
-cz
-cz
+nr
 cz
 cz
 cz
@@ -39133,15 +41693,15 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
-td
-td
-td
+cz
+cz
+cz
+Qa
+yO
+Qa
+Qa
+Qa
+Qa
 td
 td
 td
@@ -39359,7 +41919,7 @@ cz
 cz
 cz
 cz
-cz
+EP
 cz
 cz
 cz
@@ -39396,14 +41956,14 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
-td
-td
+cz
+cz
+Qa
+MP
+MP
+ab
+PB
+Qa
 td
 td
 td
@@ -39619,11 +42179,11 @@ cz
 lM
 cz
 cz
+Xj
 cz
 cz
 cz
-cz
-cz
+Xj
 cz
 cz
 cz
@@ -39659,13 +42219,13 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
-td
+cz
+Qa
+PT
+WQ
+WQ
+MP
+Qa
 td
 td
 td
@@ -39881,37 +42441,11 @@ cz
 cz
 cz
 cz
+Xj
+QJ
+MX
 cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-Qa
-td
-td
-td
-td
-td
-td
-td
-td
-td
-Qa
-cz
-cz
-cz
-cz
-cz
-cz
+Xj
 cz
 cz
 cz
@@ -39928,6 +42462,32 @@ td
 td
 td
 td
+td
+td
+td
+Qa
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+Qa
+Qa
+dB
+HA
+WQ
+Nu
+Qa
 td
 td
 td
@@ -40144,6 +42704,33 @@ cz
 cz
 cz
 cz
+gC
+gC
+gC
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+Qa
+td
+td
+td
+td
+td
+td
+Qa
+Qa
+Qa
+Qa
+cz
+cz
+cz
 cz
 cz
 cz
@@ -40158,38 +42745,11 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
-td
-td
+Qp
+lC
+Xa
+Gt
 Qa
-Qa
-Qa
-Qa
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-cz
-Qa
-Qa
-td
-td
-td
-td
 td
 td
 td
@@ -40404,13 +42964,13 @@ cz
 cz
 cz
 cz
+qG
 cz
 cz
 cz
 cz
 cz
-cz
-cz
+Xq
 cz
 zK
 KZ
@@ -40448,10 +43008,10 @@ cz
 cz
 cz
 Qa
-td
-td
-td
-td
+Qa
+Qa
+Qa
+Qa
 td
 td
 td
@@ -40711,8 +43271,8 @@ cz
 cz
 Qa
 Qa
-td
-td
+Qa
+Qa
 td
 td
 td
@@ -40927,7 +43487,7 @@ Qa
 cz
 cz
 cz
-cz
+bo
 cz
 cz
 cz
@@ -41190,7 +43750,7 @@ Qa
 Qa
 Qa
 Qa
-zr
+Qa
 zr
 QV
 Qa
@@ -41450,15 +44010,15 @@ td
 Qa
 cz
 cz
+Ks
+Ks
 cz
 cz
 cz
 cz
-cz
-cz
-cz
-cz
-cz
+Ks
+Ks
+Ks
 cz
 Qa
 Qa
@@ -43295,9 +45855,9 @@ cz
 cz
 cz
 cz
-cz
-cz
-cz
+Ks
+Ks
+Ks
 cz
 cz
 Qa
@@ -43794,25 +46354,25 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
-td
-td
-td
+WQ
+MP
+tt
+AX
+MP
+Er
+Tx
+yt
+Xc
+Hz
+Tx
 Qa
 cz
 cz
 zr
-zr
-zr
-zr
-zr
+KH
+KH
+KH
+KH
 zr
 zr
 cz
@@ -44056,17 +46616,17 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
-td
-td
-td
+MP
+WQ
+MP
+ri
+Yp
+ri
+MP
+WQ
+tt
+Hz
+cw
 Qa
 Qa
 Qa
@@ -44318,17 +46878,17 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
-td
-td
-td
-td
+MP
+WQ
+MP
+xc
+Ft
+ql
+MP
+WQ
+MP
+MP
+Hz
 td
 td
 td
@@ -44842,7 +47402,7 @@ td
 td
 td
 td
-td
+gE
 td
 td
 td
@@ -45104,13 +47664,13 @@ td
 td
 td
 td
-td
-td
-td
-td
-td
-td
-td
+aE
+FH
+fo
+nt
+Bp
+dH
+Te
 td
 td
 td
