@@ -71,8 +71,10 @@
 	listed_products = list(
 		list("STANDARD EQUIPMENT", -1, null, null, null),
 		list("Marine Combat Boots", round(scale * 15), /obj/item/clothing/shoes/marine, VENDOR_ITEM_REGULAR),
+		list("Marine Brown Combat Boots", round(scale * 15), /obj/item/clothing/shoes/marine/brown, VENDOR_ITEM_REGULAR),
 		list("USCM Uniform", round(scale * 15), /obj/item/clothing/under/marine, VENDOR_ITEM_REGULAR),
 		list("Marine Combat Gloves", round(scale * 15), /obj/item/clothing/gloves/marine, VENDOR_ITEM_REGULAR),
+		list("Marine Brown Combat Gloves", round(scale * 15), /obj/item/clothing/gloves/marine/brown, VENDOR_ITEM_REGULAR),
 		list("Marine Black Combat Gloves", round(scale * 15), /obj/item/clothing/gloves/marine/black, VENDOR_ITEM_REGULAR),
 		list("Marine Radio Headset", round(scale * 15), /obj/item/device/radio/headset/almayer, VENDOR_ITEM_REGULAR),
 		list("M10 Pattern Marine Helmet", round(scale * 15), /obj/item/clothing/head/helmet/marine, VENDOR_ITEM_REGULAR),
@@ -148,6 +150,7 @@
 
 		list("MISCELLANEOUS", -1, null, null, null),
 		list("Ballistic goggles", round(scale * 10), /obj/item/clothing/glasses/mgoggles, VENDOR_ITEM_REGULAR),
+		list("M1A1 Ballistic goggles", round(scale * 10), /obj/item/clothing/glasses/mgoggles/v2, VENDOR_ITEM_REGULAR),
 		list("Prescription ballistic goggles", round(scale * 10), /obj/item/clothing/glasses/mgoggles/prescription, VENDOR_ITEM_REGULAR),
 		list("Marine RPG glasses", round(scale * 10), /obj/item/clothing/glasses/regular, VENDOR_ITEM_REGULAR),
 		list("M5 Integrated Gas Mask", round(scale * 10), /obj/item/prop/helmetgarb/helmet_gasmask, VENDOR_ITEM_REGULAR),
@@ -157,6 +160,7 @@
 		list("USCM Flair", round(scale * 15), /obj/item/prop/helmetgarb/flair_uscm, VENDOR_ITEM_REGULAR),
 		list("Falling Falcons Shoulder Patch", round(scale * 15), /obj/item/clothing/accessory/patch/falcon, VENDOR_ITEM_REGULAR),
 		list("USCM Shoulder Patch", round(scale * 15), /obj/item/clothing/accessory/patch, VENDOR_ITEM_REGULAR),
+		list("Bedroll", round(scale * 20), /obj/item/roller/bedroll, VENDOR_ITEM_REGULAR),
 		)
 
 //--------------SQUAD SPECIFIC VERSIONS--------------
@@ -305,6 +309,7 @@
 	req_access = list(ACCESS_MARINE_ALPHA)
 	req_one_access = list(ACCESS_MARINE_LEADER, ACCESS_MARINE_SPECPREP, ACCESS_MARINE_RO)
 	hackable = TRUE
+	vend_flags = VEND_CLUTTER_PROTECTION | VEND_LIMITED_INVENTORY | VEND_TO_HAND
 
 	vend_y_offset = 1
 
